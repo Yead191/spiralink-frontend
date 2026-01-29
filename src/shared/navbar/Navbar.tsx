@@ -126,11 +126,20 @@ export default function Navbar() {
       </div>
 
       {/* Drawer for Mobile */}
-      <ConfigProvider>
+      <ConfigProvider
+        theme={{
+          components: {
+            Drawer: {
+              colorBgElevated: "#050507",
+              colorIcon: "#fff",
+            },
+          },
+        }}
+      >
         <Drawer
           title={
             <div className="flex justify-between items-center">
-              <span className="font-semibold text-lg">Menu</span>
+              <span className="font-semibold text-lg text-white!">Menu</span>
               {/* <CloseOutlined onClick={() => setDrawerOpen(false)} /> */}
             </div>
           }
@@ -144,11 +153,11 @@ export default function Navbar() {
               <Link
                 key={index}
                 href={item.href}
-                className={`${
+                className={`text-sm lg:text-xs 2xl:text-sm transition-all duration-300 ${
                   item.href === pathname
-                    ? "relative font-semibold pl-4 -ml-4 py-2 rounded-lg  bg-primary! text-white! backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.1)]"
-                    : " hover:text-primary text-[#000000]!"
-                } text-base   transition-all`}
+                    ? "text-[#FFFFFF]!"
+                    : "text-[#FFFFFF]/60! hover:text-[#FFFFFF]!"
+                }`}
                 onClick={() => setDrawerOpen(false)}
               >
                 {item.labelKey}
@@ -159,17 +168,17 @@ export default function Navbar() {
             <div className="flex flex-col gap-3 w-full">
               <Link
                 href="/contact"
-                className="flex items-center justify-center gap-2 bg-[#1F1F1F] text-white px-6 py-2 rounded-full transition-colors text-sm w-full font-medium"
                 onClick={() => setDrawerOpen(false)}
+                className="flex items-center gap-2 bg-[#1d1f22] hover:bg-[#2F2F2F] text-white! px-5 py-2.5 rounded-full transition-colors text-sm font-medium"
               >
-                Contact <span className="text-lg leading-none">↗</span>
+                Contact <LuArrowUpRight />
               </Link>
               <Link
                 href="/request-demo"
-                className="flex items-center justify-center gap-2 bg-gradient-to-r from-[#7c3aed] to-[#3b82f6] text-white px-6 py-2 rounded-full transition-all text-sm w-full font-medium"
                 onClick={() => setDrawerOpen(false)}
+                className="flex items-center gap-2 bg-linear-to-r from-[#7D3BB7] to-[#2C4C91] hover:opacity-90 text-white! px-5 py-2.5 rounded-full transition-all text-sm font-medium"
               >
-                Request demo <span className="text-lg leading-none">↗</span>
+                Request demo <LuArrowUpRight />
               </Link>
             </div>
           </div>

@@ -7,9 +7,7 @@ export default function layout({ children }: { children: React.ReactNode }) {
     <main className="relative">
       <NavServer />
       <section>{children}</section>
-      <footer>
-        <Footer />
-      </footer>
+      <footer>{/* <Footer /> */}</footer>
     </main>
   );
 }

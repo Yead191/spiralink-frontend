@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Drawer, ConfigProvider } from "antd";
 import { usePathname } from "next/navigation";
 import navItems from "@/constants/navItem";
+import { LuArrowUpRight } from "react-icons/lu";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -97,10 +98,21 @@ export default function Navbar() {
 
           {/* Right Section - Language + Download + Menu */}
           <div className="flex items-center gap-4">
-            {/* Download Button (Hidden on Small Devices) */}
-            <button className="cursor-pointer hidden lg:block bg-[#06825C] text-white px-6 py-2 rounded-full transition-colors text-base font-semibold">
-              Download App
-            </button>
+            {/* Contact & Request Demo Buttons */}
+            <div className="hidden lg:flex items-center gap-4">
+              <Link
+                href="/contact"
+                className="flex items-center gap-2 bg-[#1d1f22] hover:bg-[#2F2F2F] text-white px-5 py-2.5 rounded-full transition-colors text-sm font-medium"
+              >
+                Contact <LuArrowUpRight />
+              </Link>
+              <Link
+                href="/request-demo"
+                className="flex items-center gap-2 bg-linear-to-r from-[#7D3BB7] to-[#2C4C91] hover:opacity-90 text-white px-5 py-2.5 rounded-full transition-all text-sm font-medium"
+              >
+                Request demo <LuArrowUpRight />
+              </Link>
+            </div>
 
             {/* Mobile Menu Icon */}
             <button
@@ -143,10 +155,23 @@ export default function Navbar() {
               </Link>
             ))}
 
-            {/* Download Button */}
-            <button className="bg-[#06825C] text-white px-6 py-2 rounded-full transition-colors text-sm w-full">
-              Download App
-            </button>
+            {/* Contact & Request Demo Buttons */}
+            <div className="flex flex-col gap-3 w-full">
+              <Link
+                href="/contact"
+                className="flex items-center justify-center gap-2 bg-[#1F1F1F] text-white px-6 py-2 rounded-full transition-colors text-sm w-full font-medium"
+                onClick={() => setDrawerOpen(false)}
+              >
+                Contact <span className="text-lg leading-none">↗</span>
+              </Link>
+              <Link
+                href="/request-demo"
+                className="flex items-center justify-center gap-2 bg-gradient-to-r from-[#7c3aed] to-[#3b82f6] text-white px-6 py-2 rounded-full transition-all text-sm w-full font-medium"
+                onClick={() => setDrawerOpen(false)}
+              >
+                Request demo <span className="text-lg leading-none">↗</span>
+              </Link>
+            </div>
           </div>
         </Drawer>
       </ConfigProvider>

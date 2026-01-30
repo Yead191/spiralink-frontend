@@ -7,6 +7,8 @@ import { Drawer, ConfigProvider } from "antd";
 import { usePathname } from "next/navigation";
 import navItems from "@/constants/navItem";
 import { LuArrowUpRight } from "react-icons/lu";
+import "aos/dist/aos.css";
+import AOS from "aos";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -52,7 +54,13 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 600,
+  //     once: true,
+  //     // easing: "ease-out-cubic",
+  //   });
+  // }, []);
   return (
     <nav
       className={`fixed top-0  z-50 w-full transition-all duration-500 navbar-container px-4
@@ -73,9 +81,9 @@ export default function Navbar() {
           {/* Logo */}
           <Link href={"/"} className="shrink-0 ">
             <Image
-              src="/logo.svg"
+              src="/logo.png"
               alt="VIAJIA Logo"
-              width={400}
+              width={600}
               height={100}
               className="h-[30px] w-fit object-contain"
               draggable={false}
@@ -172,7 +180,7 @@ export default function Navbar() {
               <Link
                 href="/contact"
                 onClick={() => setDrawerOpen(false)}
-                className="flex items-center gap-2 bg-[#1d1f22] hover:bg-[#2F2F2F] text-white! px-5 py-2.5 rounded-full transition-colors text-sm font-medium"
+                className="flex items-center gap-2 bg-[#1d1f22]! hover:bg-[#2F2F2F] text-white! px-5 py-2.5 rounded-full transition-colors text-sm font-medium"
               >
                 Contact <LuArrowUpRight />
               </Link>

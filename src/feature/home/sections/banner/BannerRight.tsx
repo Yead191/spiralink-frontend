@@ -19,14 +19,20 @@ export default function BannerRight() {
   const inputStyle = {
     background:
       "linear-gradient(304.65deg, rgba(255, 255, 255, 0.05) 13.81%, rgba(153, 153, 153, 0.0332332) 33.55%, rgba(153, 153, 153, 0.0125) 81.13%)",
-    backdropFilter: "blur(30px)",
+    backdropFilter: "blur(45px)",
   };
 
   return (
     <section>
-      <div className="bg-[#0A0A0A] border border-white/10 rounded-3xl p-6 lg:p-8">
+      <div
+        style={{
+          background:
+            "linear-gradient(304.65deg, rgba(255, 255, 255, 0.05) 13.81%, rgba(153, 153, 153, 0.0332332) 33.55%, rgba(153, 153, 153, 0.0125) 81.13%)",
+        }}
+        className="border border-white/10 rounded-3xl p-6 lg:p-8"
+      >
         <div className="mb-8">
-          <h2 className="text-3xl lg:text-[40px] font-semibold mb-2">
+          <h2 className="text-2xl lg:text-[40px] font-semibold mb-2">
             Tell us what you need.
             <br />
             We&apos;ll build it.

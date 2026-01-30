@@ -100,7 +100,7 @@ export default function VoiceWave({ className }: { className?: string }) {
         const currentHeight = Math.max(4, baseHeight * (beat + shimmer));
 
         // Draw symmetric bar
-        ctx.fillStyle = "#C084FC";
+        ctx.fillStyle = "#44305e";
 
         // Roundcap effect can be simulated or just rect
         ctx.fillRect(x, centerY - currentHeight / 2, barWidth, currentHeight);

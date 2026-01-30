@@ -17,7 +17,7 @@ export default function Banner() {
         // }}
       />
 
-      <div className="container relative z-10">
+      <div className="container relative z-10 pb-14 md:pb-40 lg:pb-48">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 2xl:gap-20 items-start">
           {/* Left Column */}
           <BannerLeft />
@@ -32,8 +32,9 @@ export default function Banner() {
           draggable={false}
           className="
     absolute
-    -bottom-20 
-    lg:-bottom-64 
+    -bottom-16 
+    lg:-bottom-52
+    2xl:-bottom-60 
     left-1/2 
     -translate-x-1/2 
     w-full 
@@ -47,7 +48,7 @@ export default function Banner() {
         alt="line"
         width={600}
         height={600}
-        className="absolute -bottom-3 lg:bottom-12 -right-64  lg:-right-60 w-contain h-auto"
+        className="absolute bottom-11 md:bottom-18 md:-right-92 lg:bottom-60 -right-64 lg:-right-96  2xl:-right-60 w-contain h-auto"
         draggable={false}
       />
     </div>

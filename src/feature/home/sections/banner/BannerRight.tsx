@@ -443,15 +443,15 @@ export default function BannerRight() {
       <div className="pt-6">
         <button
           style={{
-            border: "1.5px solid",
-            borderImageSource:
-              "linear-gradient(90deg, #C175FC 0%, #6C35BE 100%)",
             background: "linear-gradient(135deg, #7D3BB7 0%, #2C4C91 100%)",
             backdropFilter: "blur(45px)",
             boxShadow: "-9px 11px 48px 0px #BC72F873",
+            border: "1.5px solid",
+            borderImageSource:
+              "linear-gradient(90deg, #C175FC 0%, #6C35BE 100%)",
           }}
           type="submit"
-          className="w-full  text-white font-semibold py-4 rounded-full transition-all cursor-pointer"
+          className="w-full  text-white font-semibold py-4 rounded-full transition-all cursor-pointer!  hover:scale-105! "
         >
           Request Free Demo
         </button>

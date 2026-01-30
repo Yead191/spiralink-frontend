@@ -71,7 +71,7 @@ export default function BannerLeft() {
       rounded-2xl
       min-w-[280px] lg:min-w-0
       snap-center
-      flex flex-col gap-4 min-h-[270px] md:min-h-auto
+      flex flex-col gap-4 min-h-[270px] lg:min-h-auto
       ${index === 1 || index === 3 ? "lg:row-span-2 lg:h-full" : ""}
     `}
           >

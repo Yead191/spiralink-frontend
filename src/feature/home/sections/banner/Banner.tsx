@@ -17,20 +17,37 @@ export default function Banner() {
         // }}
       />
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 2xl:gap-20 items-start">
           {/* Left Column */}
           <BannerLeft />
           {/* Right Column - Form */}
           <BannerRight />
         </div>
+        <Image
+          src="/assets/bg/Spiralink.png"
+          alt="line"
+          width={1400}
+          height={800}
+          draggable={false}
+          className="
+    absolute
+    -bottom-20 
+    lg:-bottom-64 
+    left-1/2 
+    -translate-x-1/2 
+    w-full 
+    h-fit 
+    object-contain
+  "
+        />
       </div>
       <Image
         src={"/assets/images/home/line.png"}
         alt="line"
         width={600}
         height={600}
-        className="absolute bottom-12 -right-60 w-contain h-auto"
+        className="absolute -bottom-3 lg:bottom-12 -right-64  lg:-right-60 w-contain h-auto"
         draggable={false}
       />
     </div>

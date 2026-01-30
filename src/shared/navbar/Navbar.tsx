@@ -77,7 +77,8 @@ export default function Navbar() {
               alt="VIAJIA Logo"
               width={400}
               height={100}
-              className="h-[30px] w-fit"
+              className="h-[30px] w-fit object-contain"
+              draggable={false}
             />
           </Link>
 

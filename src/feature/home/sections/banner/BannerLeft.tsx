@@ -11,27 +11,27 @@ export default function BannerLeft() {
     {
       title: "15-minute brief",
       desc: "You tell us about your workflow. We listen, ask questions, take notes.",
-      icon: <FileText className="w-8 h-8  text-primary" />,
+      icon: <FileText className="w-6 h-6 lg:w-8 lg:h-8  text-primary" />,
     },
     {
       title: "Systems integration?",
       desc: "Your choice. We can connect to your CRM platform if you want to see it work with real data. Or we simulate it. Whatever makes you comfortable.",
-      icon: <Settings2 className="w-8 h-8  text-primary" />,
+      icon: <Settings2 className="w-6 h-6 lg:w-8 lg:h-8  text-primary" />,
     },
     {
       title: "48-72 hours",
       desc: "We build and build. You hear nothing from us.",
-      icon: <Clock className="w-8 h-8  text-primary" />,
+      icon: <Clock className="w-6 h-6 lg:w-8 lg:h-8  text-primary" />,
     },
     {
       title: "You get a phone number",
       desc: "Call it. Test real scenarios. Angry customers. Complex issues. Whatever breaks your current system. Call it 50 times if you want.",
-      icon: <PhoneCall className="w-8 h-8  text-primary" />,
+      icon: <PhoneCall className="w-6 h-6 lg:w-8 lg:h-8  text-primary" />,
     },
     {
       title: "After 7 days",
       desc: "Did it work? Yes? Let's talk partnership. No? No hard feelings. We part as friends.",
-      icon: <CheckSquare className="w-8 h-8  text-primary" />,
+      icon: <CheckSquare className="w-6 h-6 lg:w-8 lg:h-8  text-primary" />,
     },
   ];
   return (
@@ -71,11 +71,11 @@ export default function BannerLeft() {
       rounded-2xl
       min-w-[280px] lg:min-w-0
       snap-center
-      flex flex-col gap-4 min-h-[250px] md:min-h-auto
+      flex flex-col gap-4 min-h-[270px] md:min-h-auto
       ${index === 1 || index === 3 ? "lg:row-span-2 lg:h-full" : ""}
     `}
           >
-            <div className="w-10 h-10 lg:w-14 lg:h-14 rounded-full bg-white/5 flex items-center justify-center border border-white/10">
+            <div className="w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-white/5 flex items-center justify-center border border-white/10">
               {step.icon}
             </div>
 

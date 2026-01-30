@@ -9,6 +9,9 @@ import {
   FaVimeoV,
   FaYoutube,
 } from "react-icons/fa";
+import Waveform from "./Waveform";
+import FooterWave from "./Waveform";
+import VoiceWave from "./Waveform";
 
 export default function Footer() {
   return (
@@ -110,6 +113,9 @@ export default function Footer() {
             <a
               key={idx}
               href="#"
+              style={{
+                backdropFilter: "blur(25px)",
+              }}
               className="w-10 h-10 flex items-center justify-center rounded-full bg-[#FFFFFF0D] border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all text-white/90 hover:text-white"
             >
               <Icon size={16} />
@@ -121,14 +127,16 @@ export default function Footer() {
           © 2025 Spiralink. All rights reserved
         </div>
       </div>
-      <Image
+      {/* <Image
         src={"/assets/images/footer/radiation.svg"}
         alt="footer-bg"
         width={1920}
         height={100}
         className="absolute bottom-[155px] lg:bottom-[260px] 2xl:bottom-[335px]  w-full h-[60px] object-cover z-0"
         draggable={false}
-      />
+      /> */}
+      <VoiceWave className="absolute bottom-[155px] lg:bottom-[260px] 2xl:bottom-[330px]" />
+
       <Image
         src={"/assets/images/footer/bottom-line.svg"}
         alt="footer-bg"

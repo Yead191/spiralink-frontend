@@ -19,7 +19,7 @@ export default function Footer() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
-      className="relative pt-20 pb-10 overflow-hidden text-white"
+      className="relative pt-20 pb-10 overflow-hidden text-white lg:-mt-20"
     >
       <div className="container mx-auto px-4 relative z-10 flex flex-col items-center text-center mb-10">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-8 tracking-tight">
@@ -58,14 +58,14 @@ export default function Footer() {
               />
             </svg>
           </Link>
-          <button
+          {/* <button
             style={{
               backdropFilter: "blur(25px)",
             }}
             className="bg-[#FFFFFF0D] border border-white/10 hover:bg-white/10 text-white px-8 py-3 rounded-full transition-colors font-medium cursor-pointer "
           >
             Listen to samples
-          </button>
+          </button> */}
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6 text-sm md:text-[15px]  mb-8 ">
@@ -126,7 +126,8 @@ export default function Footer() {
         alt="footer-bg"
         width={1920}
         height={100}
-        className="absolute bottom-[370px] lg:bottom-[480px]  w-full h-[60px] object-cover z-0"
+        className="absolute bottom-[155px] lg:bottom-[260px] 2xl:bottom-[335px]  w-full h-[60px] object-cover z-0"
+        draggable={false}
       />
       <Image
         src={"/assets/images/footer/bottom-line.svg"}
@@ -134,6 +135,7 @@ export default function Footer() {
         width={1920}
         height={100}
         className=" bottom-12 left-0 w-full h-fit object-contain z-0"
+        draggable={false}
       />
     </footer>
   );

@@ -55,13 +55,15 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0  z-50 w-full transition-all duration-500 navbar-container px-3
-         mt-4  
+      className={`fixed top-0  z-50 w-full transition-all duration-500 navbar-container px-4
+         mt-4
         ${showNavbar ? "translate-y-0" : "-translate-y-28"}
       `}
+      // className={`fixed top-0  z-50 w-full transition-all duration-500 navbar-container px-4
+      //    mt-4`}
     >
       <div
-        className={`container mx-auto px-4 py-3 transition-colors duration-300 bg-[#374151]/15 rounded-full`}
+        className={`container mx-auto px-2 lg:px-4 py-3 transition-colors duration-300 bg-[#374151]/15 rounded-full`}
         style={{
           backdropFilter: "blur(10px) saturate(120%)",
           WebkitBackdropFilter: "blur(10px) saturate(120%)",
@@ -73,8 +75,8 @@ export default function Navbar() {
             <Image
               src="/logo.svg"
               alt="VIAJIA Logo"
-              width={180}
-              height={50}
+              width={400}
+              height={100}
               className="h-[30px] w-fit"
             />
           </Link>

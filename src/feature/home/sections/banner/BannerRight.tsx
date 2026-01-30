@@ -445,7 +445,7 @@ export default function BannerRight() {
             boxShadow: "-9px 11px 48px 0px #BC72F873",
           }}
           type="submit"
-          className="w-full  hover:opacity-90 text-white font-semibold py-4 rounded-full transition-all cursor-pointer"
+          className="w-full  text-white font-semibold py-4 rounded-full transition-all cursor-pointer"
         >
           Request Free Demo
         </button>

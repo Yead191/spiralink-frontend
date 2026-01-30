@@ -9,12 +9,12 @@ export default function Banner() {
       {/* Background Overlay */}
       <div
         className="absolute inset-0 z-0 opacity-40 pointer-events-none"
-        style={{
-          backgroundImage: "url('/assets/images/home/banner_bg.png')",
-          backgroundSize: "contain",
-          backgroundPosition: "top",
-          backgroundRepeat: "no-repeat",
-        }}
+        // style={{
+        //   backgroundImage: "url('/assets/images/home/banner_bg.png')",
+        //   backgroundSize: "contain",
+        //   backgroundPosition: "top",
+        //   backgroundRepeat: "no-repeat",
+        // }}
       />
 
       <div className="container mx-auto px-4 relative z-10">
@@ -31,6 +31,7 @@ export default function Banner() {
         width={600}
         height={600}
         className="absolute bottom-12 -right-60 w-contain h-auto"
+        draggable={false}
       />
     </div>
   );

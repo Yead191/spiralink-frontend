@@ -55,7 +55,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0  z-50 w-full transition-all duration-500 navbar-container 
+      className={`fixed top-0  z-50 w-full transition-all duration-500 navbar-container px-3
          mt-4  
         ${showNavbar ? "translate-y-0" : "-translate-y-28"}
       `}

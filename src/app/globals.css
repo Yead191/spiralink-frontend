@@ -14,13 +14,13 @@
 
 @layer utilities {
   .section-title {
-    @apply text-3xl lg:text-5xl  font-semibold mb-6;
+    @apply text-3xl lg:text-6xl 2xl:text-7xl  font-semibold 2xl:font-bold mb-6;
   }
   .section-subtitle {
-    @apply text-[#242424] text-[16px] lg:text-lg  leading-relaxed;
+    @apply text-[#FFFFFF] text-[16px] lg:text-lg 2xl:text-xl leading-relaxed;
   }
   .container {
-    @apply container mx-auto px-4 md:px-5;
+    @apply max-w-7xl mx-auto px-4 md:px-5;
   }
   .flex-center {
     @apply flex justify-center items-center;

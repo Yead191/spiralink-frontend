@@ -9,8 +9,6 @@ import {
   FaVimeoV,
   FaYoutube,
 } from "react-icons/fa";
-import Waveform from "./Waveform";
-import FooterWave from "./Waveform";
 import VoiceWave from "./Waveform";
 
 export default function Footer() {
@@ -22,7 +20,7 @@ export default function Footer() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
-      className="relative pt-20 pb-10 overflow-hidden text-white lg:-mt-20"
+      className="relative pt-20 pb-10 overflow-hidden text-white"
     >
       <div className="container mx-auto px-4 relative z-10 flex flex-col items-center text-center mb-10">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-8 tracking-tight">

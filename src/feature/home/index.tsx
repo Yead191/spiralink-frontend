@@ -1,17 +1,20 @@
 import React from "react";
-import Banner from "./sections/banner/Banner";
+import HomeBanner from "./components/HomeBanner";
+import HumanlikeQuality from "./components/HumanlikeQuality";
 
-export default async function HomePage() {
+export default function HomePage() {
   return (
     <section
       style={{
-        backgroundImage: "url('/assets/bg/layout-bg.svg')",
+        backgroundImage: "url('/assets/bg/home/home_bg.svg')",
         backgroundSize: "cover",
         // backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
+      className="min-h-screen"
     >
-      <Banner />
+      <HomeBanner />
+      <HumanlikeQuality />
     </section>
   );
 }

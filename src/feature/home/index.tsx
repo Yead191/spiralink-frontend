@@ -2,6 +2,8 @@ import React from "react";
 import HomeBanner from "./components/HomeBanner";
 import HumanlikeQuality from "./components/HumanlikeQuality";
 import RequestDemo from "./components/RequestDemo";
+import TechBrain from "./components/TechBrain";
+import HybridModel from "./components/HybridModel";
 
 export default function HomePage() {
   return (
@@ -17,6 +19,8 @@ export default function HomePage() {
       <HomeBanner />
       <HumanlikeQuality />
       <RequestDemo />
+      <TechBrain />
+      <HybridModel />
     </section>
   );
 }

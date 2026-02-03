@@ -14,10 +14,10 @@
 
 @layer utilities {
   .section-title {
-    @apply text-3xl lg:text-6xl 2xl:text-7xl  font-semibold 2xl:font-bold mb-6;
+    @apply text-3xl lg:text-6xl 2xl:text-6xl  font-semibold 2xl:font-bold mb-6;
   }
   .section-subtitle {
-    @apply text-[#FFFFFF] text-[16px] lg:text-lg 2xl:text-xl leading-relaxed;
+    @apply text-[#FFFFFF]/75 text-[16px] lg:text-lg 2xl:text-xl leading-relaxed;
   }
   .container {
     @apply max-w-7xl mx-auto px-4 md:px-5;

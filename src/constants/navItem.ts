@@ -1,6 +1,6 @@
 const navItems = [
   { labelKey: "The Tech", href: "/" },
-  { labelKey: "Partnerships", href: "/partnerships" },
+  { labelKey: "partnerships", href: "/demo" },
   { labelKey: "Industries", href: "/industries" },
   { labelKey: "Resources", href: "/resources" },
   { labelKey: "Company", href: "/company" },

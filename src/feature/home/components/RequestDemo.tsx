@@ -19,7 +19,7 @@ export default function RequestDemo() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
-      className="pt-24  text-white overflow-hidden relative"
+      className="pt-16 lg:pt-24  text-white overflow-hidden relative lg:my-16"
     >
       <div className="container flex flex-col  relative z-10 overflow-visible">
         {/* Header Section */}
@@ -35,7 +35,7 @@ export default function RequestDemo() {
               Request your <br />
               <span className="text-[#C175FC]">FREE</span> tailored demo
             </h2>
-            <p className="text-[#FFFFFF]/80 text-xl leading-relaxed hidden lg:block absolute top-24 -right-8 max-w-[250px]">
+            <p className="text-[#FFFFFF]/80 text-xl leading-relaxed hidden lg:block absolute top-20 2xl:top-24 -right-20 2xl:-right-8 max-w-[250px]">
               Let us manufacture a custom demo using your script and your
               workflow.
             </p>

@@ -1,6 +1,7 @@
 import React from "react";
 import HomeBanner from "./components/HomeBanner";
 import HumanlikeQuality from "./components/HumanlikeQuality";
+import RequestDemo from "./components/RequestDemo";
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
     >
       <HomeBanner />
       <HumanlikeQuality />
+      <RequestDemo />
     </section>
   );
 }

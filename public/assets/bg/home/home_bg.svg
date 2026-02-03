@@ -36,7 +36,6 @@
 <rect width="636.316" height="1130.84" transform="matrix(-0.358323 -0.933598 -0.933598 0.358323 2252.76 245.063)" fill="url(#pattern2_4712_2241)"/>
 <rect width="636.316" height="1130.84" transform="matrix(-0.358323 -0.933598 -0.933598 0.358323 2252.76 245.063)" fill="url(#paint6_linear_4712_2241)" style="mix-blend-mode:hue"/>
 </g>
-<path d="M-201.053 884H18.6572C190.49 884 177.373 610.689 10.787 610.689H-143.994C-306.644 610.689 -304.022 340 -143.994 340H190.49C236.4 340 260.666 374.082 260.666 421.272V792.896C260.666 846.641 260.666 884 327.563 884H1021.5" stroke="url(#paint7_linear_4712_2241)" stroke-width="32"/>
 <rect width="1920" height="12381" fill="url(#pattern3_4712_2241)"/>
 </g>
 </g>
@@ -132,10 +131,6 @@
 <linearGradient id="paint6_linear_4712_2241" x1="0" y1="565.422" x2="636.316" y2="565.422" gradientUnits="userSpaceOnUse">
 <stop stop-color="#C175FC"/>
 <stop offset="1" stop-color="#6C35BE"/>
-</linearGradient>
-<linearGradient id="paint7_linear_4712_2241" x1="-265" y1="612" x2="1021.5" y2="612" gradientUnits="userSpaceOnUse">
-<stop stop-color="#C175FC"/>
-<stop offset="1" stop-color="#6C35BE" stop-opacity="0"/>
 </linearGradient>
 <clipPath id="clip0_4712_2241">
 <rect width="1920" height="10847" fill="white"/>

@@ -1,10 +1,11 @@
 import React from "react";
 import { MoveUpRight, Zap } from "lucide-react";
+import Image from "next/image";
 
 export default function HomeBanner() {
   return (
-    <section className="text-white pt-24 lg:py-20 min-h-screen flex items-center">
-      <div className="container mx-auto w-full flex flex-col md:flex-row gap-5 lg:gap-0 items-end lg:grid lg:grid-cols-12">
+    <section className="text-white pt-24 lg:py-20 min-h-screen flex items-center relative overflow-hidden">
+      <div className="container mx-auto w-full flex flex-col md:flex-row gap-5 lg:gap-0 items-end lg:grid lg:grid-cols-12 z-10">
         {/* Left Content */}
         <div className=" space-y-8 lg:col-span-6 2xl:col-span-7">
           {/* Glowing Tag */}
@@ -14,9 +15,9 @@ export default function HomeBanner() {
               backdropFilter: "blur(45px)",
               boxShadow: "-9px 11px 48px 0px #BC72F873",
             }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-[1.5px] border-[#6C35BE]"
+            className="inline-flex items-center gap-0.5 lg:gap-2 px-4 py-2 rounded-full border-[1.5px] border-[#6C35BE]"
           >
-            <span className="text-gray-300 text-sm font-medium tracking-wide">
+            <span className="text-gray-300 text-[10px] md:text-sm font-medium tracking-wide">
               You focus on the calls. We handle the technology.
             </span>
             <Zap className="lg:w-3.5 lg:h-3.5 w-4 h-4 text-yellow-400 fill-yellow-400" />
@@ -24,8 +25,8 @@ export default function HomeBanner() {
 
           {/* Headline */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl 2xl:text-[6rem] leading-[0.9] font-medium tracking-tighter">
-            Humanlike AI Voicebots built exclusively{" "}
-            <br className="hidden 2xl:block" /> for call centers.
+            Humanlike AI Voicebots built exclusively <br className="" /> for
+            call centers.
           </h1>
         </div>
 
@@ -48,6 +49,22 @@ export default function HomeBanner() {
           </div>
         </div>
       </div>
+      <Image
+        src={"/assets/bg/home/home-line.svg"}
+        alt="line"
+        width={600}
+        height={600}
+        className="absolute bottom-3 md:top-18 md:-right-92 lg:top-3/8 2xl:top-2/5 -left-37 lg:-left-60  2xl:left-0 w-contain h-auto 2xl:scale-150 z-0"
+        draggable={false}
+      />
+      <Image
+        src={"/assets/bg/home/home-line2.svg"}
+        alt="line"
+        width={600}
+        height={600}
+        className="absolute top-30  -right-40 w-contain h-auto md:hidden"
+        draggable={false}
+      />
     </section>
   );
 }

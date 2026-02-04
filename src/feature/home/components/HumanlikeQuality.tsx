@@ -5,7 +5,7 @@ import PrimaryButton from "@/shared/PrimaryButton";
 
 export default function HumanlikeQuality() {
   return (
-    <section className="py-16 relative overflow-hidden">
+    <section className="py-8 lg:py-16 relative overflow-hidden">
       <div className="container mx-auto px-4 flex flex-col items-center ">
         {/* Top Badge */}
         <BadgeHero

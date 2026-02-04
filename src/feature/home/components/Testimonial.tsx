@@ -12,7 +12,7 @@ export default function Testimonial() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
-      className="pb-16 overflow-visible"
+      className="pb-8 lg:pb-16 overflow-visible"
     >
       <div className="container mx-auto">
         <div className="relative max-w-5xl mx-auto mt-16">

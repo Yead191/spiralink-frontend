@@ -4,7 +4,7 @@ import { Zap, Play } from "lucide-react";
 
 export default function HowItWorks() {
   return (
-    <section className="py-16 relative">
+    <section className="py-8 lg:py-16 relative">
       <div className="container ">
         <div className="flex flex-col items-center text-center mb-6 md:mb-10 lg:mb-16">
           {/* Badge */}

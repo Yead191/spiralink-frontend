@@ -32,7 +32,7 @@ export default function HybridModel() {
   };
 
   return (
-    <section className="pb-16 relative overflow-hidden">
+    <section className="pb-8 lg:pb-16 relative overflow-hidden">
       <Image
         src="/assets/bg/Spiralink.png"
         alt="line"

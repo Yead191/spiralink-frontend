@@ -7,6 +7,7 @@ import HybridModel from "./components/HybridModel";
 import IndustriesScale from "./components/IndustriesScale";
 import Testimonial from "./components/Testimonial";
 import HowItWorks from "./components/HowItWorks";
+import TechTeam from "./components/TechTeam";
 
 export default function HomePage() {
   return (
@@ -27,6 +28,7 @@ export default function HomePage() {
       <IndustriesScale />
       <Testimonial />
       <HowItWorks />
+      <TechTeam />
     </section>
   );
 }

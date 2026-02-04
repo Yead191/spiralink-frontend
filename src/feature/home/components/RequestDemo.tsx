@@ -19,7 +19,7 @@ export default function RequestDemo() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
-      className="pt-16 lg:pt-24  text-white overflow-hidden relative lg:my-16"
+      className="pt-16 lg:pt-24  text-white overflow-hidden relative mb-8 lg:mt-16"
     >
       <div className="container flex flex-col  relative z-10 overflow-visible">
         {/* Header Section */}

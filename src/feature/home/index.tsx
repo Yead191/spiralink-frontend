@@ -8,6 +8,7 @@ import IndustriesScale from "./components/IndustriesScale";
 import Testimonial from "./components/Testimonial";
 import HowItWorks from "./components/HowItWorks";
 import TechTeam from "./components/TechTeam";
+import PartnerProgram from "./components/PartnerProgram";
 
 export default function HomePage() {
   return (
@@ -18,7 +19,7 @@ export default function HomePage() {
         // backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
-      className="min-h-screen"
+      className="min-h-screen overflow-hidden"
     >
       <HomeBanner />
       <HumanlikeQuality />
@@ -29,6 +30,7 @@ export default function HomePage() {
       <Testimonial />
       <HowItWorks />
       <TechTeam />
+      <PartnerProgram />
     </section>
   );
 }

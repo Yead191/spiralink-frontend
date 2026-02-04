@@ -18,7 +18,7 @@ export default function PrimaryButton({
         bg-white text-[#050507]
         px-6 py-3.5 rounded-full font-bold
         hover:bg-gray-100 transition-colors
-        cursor-pointer text-center 
+        cursor-pointer text-center text-sm md:text-[16px]
         ${className}
       `}
     >

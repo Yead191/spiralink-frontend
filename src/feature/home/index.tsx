@@ -5,6 +5,8 @@ import RequestDemo from "./components/RequestDemo";
 import TechBrain from "./components/TechBrain";
 import HybridModel from "./components/HybridModel";
 import IndustriesScale from "./components/IndustriesScale";
+import Testimonial from "./components/Testimonial";
+import HowItWorks from "./components/HowItWorks";
 
 export default function HomePage() {
   return (
@@ -23,6 +25,8 @@ export default function HomePage() {
       <TechBrain />
       <HybridModel />
       <IndustriesScale />
+      <Testimonial />
+      <HowItWorks />
     </section>
   );
 }

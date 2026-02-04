@@ -30,7 +30,7 @@ export default function BadgeHero({
           backdropFilter: "blur(45px)",
         }}
       >
-        <span className="text-lg">{label}</span>
+        <span className="text-sm md:text-base 2xl:text-lg">{label}</span>
         {icon}
       </div>
     </div>

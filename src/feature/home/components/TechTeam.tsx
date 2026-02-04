@@ -4,7 +4,7 @@ import React from "react";
 
 export default function TechTeam() {
   return (
-    <section className="py-8 lg:py-16 relative">
+    <section className="py-8 lg:py-16 relative mb-8 lg:mb-16">
       <div className=" lg:max-w-4xl mx-auto 2xl:max-w-7xl relative z-10 px-6 md:px-4 ">
         <h1 className="text-5xl md:text-6xl lg:text-[8rem] 2xl:text-[9rem] leading-[0.9] font-medium tracking-tighter lg:max-w-3xl  2xl:max-w-5xl mb-12">
           Let us be your tech team.

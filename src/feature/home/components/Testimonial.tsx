@@ -51,7 +51,7 @@ export default function Testimonial() {
                 “I founded SpiraLink to give call centers a real engineering
                 partner. You do not need another software tool. You need a team
                 that takes responsibility for the code.{" "}
-                <br className="md:block" /> <br className="md:block" /> We
+                <br className="md:hidden" /> <br className="md:hidden" /> We
                 manufacture your bot, integrate your workflows, and ensure AI
                 and agents operate as one.”
               </p>

@@ -4,7 +4,7 @@ import PrimaryButton from "../../../shared/PrimaryButton";
 
 export default function PartnerProgram() {
   return (
-    <section className="py-8 lg:py-16 ">
+    <section className="py-8 lg:py-16 pb-16 lg:pb-32">
       <div className="container lg:overflow-visible">
         <div
           style={{
@@ -24,7 +24,7 @@ export default function PartnerProgram() {
                 Co-Branded <br />
                 partner program.
               </h2>
-              <p className="text-gray-400 text-lg mb-8 lg:mb-0">
+              <p className="section-subtitle mb-8 lg:mb-0">
                 Want to leverage our brand authority with your clients?
               </p>
 

@@ -24,7 +24,7 @@ export default function IndustriesScale() {
       }}
       className="py-24 overflow-hidden relative lg:my-16"
     >
-      <div className="md:container mx-auto flex flex-col items-center text-center z-10 relative">
+      <div className="md:max-w-7xl md:px-4 mx-auto flex flex-col items-center text-center z-10 relative">
         <div className="mb-8">
           <BadgeHero
             label="Industries & Scale"
@@ -32,7 +32,7 @@ export default function IndustriesScale() {
           />
         </div>
 
-        <h2 className="section-title mb-6">Engineered for high volume</h2>
+        <h2 className="section-title mb-6 px-4">Engineered for high volume</h2>
 
         <p className="section-subtitle max-w-2xl leading-relaxed mb-12 px-4">
           Engineered for 24/7 operations with instant autoscaling for more than

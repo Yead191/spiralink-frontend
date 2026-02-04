@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function HomeBanner() {
   return (
-    <section className="text-white pt-24 lg:py-20 min-h-screen flex items-center relative overflow-hidden">
+    <section className="text-white pt-24 lg:py-20 md:min-h-screen flex items-center relative overflow-hidden">
       <div className="container mx-auto w-full flex flex-col md:flex-row gap-5 lg:gap-0 items-end lg:grid lg:grid-cols-12 z-10">
         {/* Left Content */}
         <div className=" space-y-8 lg:col-span-6 2xl:col-span-7">
@@ -54,7 +54,7 @@ export default function HomeBanner() {
         alt="line"
         width={600}
         height={600}
-        className="absolute bottom-3 md:top-18 md:-right-92 lg:top-3/8 2xl:top-2/5 -left-37 lg:-left-60  2xl:left-0 w-contain h-auto 2xl:scale-150 z-0"
+        className="absolute bottom-0 md:top-18 md:-right-92 lg:top-3/8 2xl:top-2/5 -left-38.5 lg:-left-60  2xl:left-0 w-contain h-auto 2xl:scale-150 z-0"
         draggable={false}
       />
       <Image
@@ -62,7 +62,7 @@ export default function HomeBanner() {
         alt="line"
         width={600}
         height={600}
-        className="absolute top-30  -right-40 w-contain h-auto md:hidden"
+        className="absolute top-28  -right-40 w-contain h-auto md:hidden"
         draggable={false}
       />
     </section>

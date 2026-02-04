@@ -4,6 +4,7 @@ import HumanlikeQuality from "./components/HumanlikeQuality";
 import RequestDemo from "./components/RequestDemo";
 import TechBrain from "./components/TechBrain";
 import HybridModel from "./components/HybridModel";
+import IndustriesScale from "./components/IndustriesScale";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ export default function HomePage() {
       <RequestDemo />
       <TechBrain />
       <HybridModel />
+      <IndustriesScale />
     </section>
   );
 }

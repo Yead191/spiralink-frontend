@@ -2,6 +2,7 @@ import React from "react";
 import CollaborationBanner from "./components/CollaborationBanner";
 import InboundConversation from "./components/InboundConversation";
 import AIResolution from "./components/AIResolution";
+import HumanHandover from "./components/HumanHandover";
 
 export default function CollaborationPage() {
   return (
@@ -17,6 +18,7 @@ export default function CollaborationPage() {
       <CollaborationBanner />
       <InboundConversation />
       <AIResolution />
+      <HumanHandover />
     </section>
   );
 }

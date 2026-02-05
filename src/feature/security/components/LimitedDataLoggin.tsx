@@ -6,7 +6,7 @@ import React from 'react'
 const LimitedDataLoggin = () => {
     return (
         <div className="bg-black relative">
-            <div className='container flex flex-col md:flex-row items-center gap-20 lg:gap-32  py-24 lg:py-32 relative'>
+            <div className='container flex flex-col md:flex-row items-center gap-20 lg:gap-32  py-8 lg:pb-16 pt-40 relative'>
 
                 {/* Right Side Content */}
                 <div className="w-full  ">
@@ -37,8 +37,7 @@ const LimitedDataLoggin = () => {
                 alt="line"
                 width={600}
                 height={600}
-                // className="absolute bottom-0 md:top-18 md:-right-92 lg:top-3/8 2xl:top-2/5 -left-38.5 lg:-right-60  2xl:left-0 w-contain h-auto 2xl:scale-150 z-0"
-                className="absolute bottom-0  z-0"
+                className="absolute bottom-0   md:top-18 md:-right-92 lg:top-3/8 lg:right-0 2xl:top-10 2xl:right-32 w-contain h-auto 2xl:scale-150 z-0"                
                 draggable={false}
             />
         </div>

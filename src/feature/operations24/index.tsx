@@ -1,4 +1,4 @@
-import OperationBanner from "./components/OperationsBanner";
+import OperationBanner from "./components/OperationsBanner24";
 import ProductCards from "./components/ProductCards";
 
 

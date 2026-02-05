@@ -1,8 +1,8 @@
 import React from "react";
-import {  Zap } from "lucide-react";
+import { Zap } from "lucide-react";
 import Image from "next/image";
 
-export default function OperationBanner() {
+export default function OperationBanner24() {
   return (
     <section className="text-white md:mr-0 -mr-42 md:mt-0 contain pt-24 lg:py-20 min-h-screen flex items-center relative overflow-hidden"
       style={{

@@ -28,7 +28,7 @@ export default function InboundConversation() {
 
         {/* Right Side - Content */}
         <div className="w-full lg:w-3/4 lg:pl-10">
-          <h2 className="text-[32px] lg:text-[40px] 2xl:text-6xl font-semibold tracking-tight mb-8 leading-[0.9]">
+          <h2 className="text-[32px] lg:text-[40px] 2xl:text-6xl font-semibold tracking-tight mb-8 lg:leading-[0.9]">
             One inbound <br />
             conversation, shared <br />
             between AI and humans

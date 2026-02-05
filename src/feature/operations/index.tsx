@@ -2,7 +2,7 @@ import OperationBanner from "./components/OperationsBanner";
 import ProductCards from "./components/ProductCards";
 
 
-const OperationsPage = () => {
+const Operations24Page = () => {
     return (
         <section
             style={{
@@ -20,4 +20,4 @@ const OperationsPage = () => {
     )
 }
 
-export default OperationsPage;
+export default Operations24Page;

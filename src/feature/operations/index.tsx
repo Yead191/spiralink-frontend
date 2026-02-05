@@ -1,5 +1,6 @@
 import React from "react";
 import OperationsBanner from "./components/OperationsBanner";
+import OppositeWay from "./components/OppositeWay";
 
 export default function OperationPageMain() {
   return (
@@ -12,6 +13,7 @@ export default function OperationPageMain() {
       className="min-h-screen"
     >
       <OperationsBanner />
+      <OppositeWay />
     </section>
   );
 }

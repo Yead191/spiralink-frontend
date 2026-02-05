@@ -10,7 +10,7 @@ export default function OperationsBanner() {
         backgroundPosition: "top right",
         backgroundRepeat: "no-repeat",
       }}
-      className="lg:min-h-screen mt-4 mr-4 relative  "
+      className="lg:min-h-screen mt-4 pr-4 relative lg:mr-4 mr-4"
     >
       <div className="container grid grid-cols-1 md:grid-cols-2 pt-36 md:pt-48 ">
         {/* left */}

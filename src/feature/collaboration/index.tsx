@@ -1,5 +1,6 @@
 import React from "react";
 import CollaborationBanner from "./components/CollaborationBanner";
+import InboundConversation from "./components/InboundConversation";
 
 export default function CollaborationPage() {
   return (
@@ -13,6 +14,7 @@ export default function CollaborationPage() {
       className="min-h-screen"
     >
       <CollaborationBanner />
+      <InboundConversation />
     </section>
   );
 }

@@ -4,6 +4,7 @@ import InboundConversation from "./components/InboundConversation";
 import AIResolution from "./components/AIResolution";
 import HumanHandover from "./components/HumanHandover";
 import ContextTransfer from "./components/ContextTransfer";
+import DailyOperations from "./components/DailyOperations";
 
 export default function CollaborationPage() {
   return (
@@ -21,6 +22,7 @@ export default function CollaborationPage() {
       <AIResolution />
       <HumanHandover />
       <ContextTransfer />
+      <DailyOperations />
     </section>
   );
 }

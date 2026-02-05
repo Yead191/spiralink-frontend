@@ -1,0 +1,153 @@
+import React from "react";
+import {  Zap } from "lucide-react";
+import Image from "next/image";
+
+export default function OperationBanner() {
+  return (
+    <section className="text-white md:mr-0 -mr-42 md:mt-0 contain pt-24 lg:py-20 min-h-screen flex items-center relative overflow-hidden"
+      style={{
+        backgroundImage: `
+  linear-gradient(
+    90deg,
+    rgba(0,0,0,0.9) 0%,
+    rgba(0,0,0,0.8) 30%,
+    rgba(0,0,0,0.65) 50%,
+    rgba(0,0,0,0.45) 65%,
+    rgba(0,0,0,0.25) 80%,
+    rgba(0,0,0,0) 100%
+  ),
+  url(/assets/bg/operations/operation-image.png)
+`,
+
+        backgroundSize: "contain",
+        backgroundPosition: "right",
+        backgroundRepeat: "no-repeat",
+        paddingTop: "40px",
+      }}
+    >
+      <div className="container mx-auto w-full md:mt-0 mt-14 flex flex-col md:flex-row gap-5 lg:gap-0 items-end lg:grid lg:grid-cols-12 z-10">
+        {/* Left Content */}
+        <div className="   space-y-4
+  [&>*:first-child]:mt-0
+  [&>*:last-child]:mb-0
+  lg:col-span-6
+  2xl:col-span-7
+  md:ml-10
+  lg:ml-0
+  xl:ml-10
+  2xl:ml-0
+  ml-2
+  ">
+          {/* Glowing Tag */}
+          <div
+            style={{
+              background: "#010403A6",
+              backdropFilter: "blur(45px)",
+              boxShadow: "-9px 11px 48px 0px #BC72F873",
+            }}
+            className="inline-flex items-center  gap-0.5 lg:gap-2 px-4 py-2 rounded-full border-[1.5px] border-[#6C35BE]"
+          >
+            <span className="text-gray-300 text-[10px] md:text-sm font-medium tracking-wide">
+              Built for 24/7 Operations 🕐
+            </span>
+            <Zap className="lg:w-3.5 lg:h-3.5 w-4 h-4 text-yellow-400 fill-yellow-400" />
+          </div>
+
+          {/* Headline */}
+          <h1
+            className="
+    text-[1.5rem]
+    md:text-[1.75rem]
+    lg:text-[2.25rem]
+    2xl:text-[3.25rem]
+    leading-[1.12]
+    font-medium
+    tracking-tight
+    md:pl-10
+    lg:pl-0
+    xl:pl-0
+    2xl:pl-0
+    ml-2
+    md:ml-0
+  "
+          >
+            Designed for
+            <br />
+            continuous inbound
+            <br />
+            support, not office hours
+          </h1>
+
+
+          <p
+            className="
+    text-white tracking-wide
+    text-xs leading-6
+    sm:text-sm sm:leading-7
+    md:text-base md:leading-8
+    pl-2 md:pl-0
+    w-full max-w-full md:max-w-xl
+    break-words
+    whitespace-normal
+  "
+          >
+            Inbound customer support does not pause. Calls come in at night, during weekends,
+            and under peak pressure. SpiraLink voicebots are built to operate continuously,
+            without relying on human supervision or fragile setups.
+          </p>
+
+
+
+        </div>
+
+        {/* Right Content */}
+        <div
+          className="
+    flex flex-col
+    md:justify-end
+    pb-4
+    lg:col-span-6 2xl:col-span-5
+    mr-3 md:mr-0
+    md:mt-0
+    md:-mb-42
+    -mb-6
+  "
+        >
+          <Image
+            src="/assets/bg/operations/star.png"
+            alt="operations"
+            width={20}
+            height={20}
+            draggable={false}
+            className="w-5 h-auto"
+          />
+
+          <p
+            className="
+      text-purple-500 font-bold
+      text-sm md:text-lg
+      leading-relaxed
+      max-w-full md:max-w-md
+      pl-4 md:pl-6
+      break-words
+    "
+          >
+            This page explains how the system behaves when things are stable, when volume
+            spikes, and when something goes wrong.
+          </p>
+        </div>
+
+
+      </div>
+
+      <Image
+        src={"/assets/bg/operations/left-bg.png"}
+        alt="line"
+        width={700}
+        height={700}
+        className="absolute bottom-0 md:top-18 md:-right-92 top-1/3 md:lg:top-3/8 2xl:top-6/18 -left-49  md:-left-40 md:lg:-left-60  2xl:left-1 w-contain h-auto 2xl:scale-150 z-0"
+        draggable={false}
+      />
+    </section>
+  );
+}

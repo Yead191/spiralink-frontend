@@ -16,10 +16,10 @@ export default function DailyOperations() {
       style={{
         backgroundImage: "url('/assets/bg/collaboration/ai-bg.svg')",
         backgroundSize: "contain",
-        backgroundPosition: "calc(50% + 200px) center",
+        backgroundPosition: "top",
         backgroundRepeat: "no-repeat",
       }}
-      className="relative text-white py-8 lg:py-16"
+      className="relative text-white pt-8 pb-16 lg:pt-16 lg:pb-32"
     >
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
@@ -84,7 +84,7 @@ export default function DailyOperations() {
         alt="daily-operations"
         width={700}
         height={500}
-        className="absolute bottom-20 2xl:bottom-10 -right-40 2xl:right-0 z-0 w-fit object-contain h-[400px] 2xl:h-[500px] opacity-70"
+        className="absolute bottom-0 lg:bottom-20 2xl:bottom-30 lg:-right-40 2xl:right-0 z-0 w-fit object-contain h-[400px] 2xl:h-[500px] opacity-70 "
       />
     </section>
   );

@@ -3,6 +3,7 @@ import CollaborationBanner from "./components/CollaborationBanner";
 import InboundConversation from "./components/InboundConversation";
 import AIResolution from "./components/AIResolution";
 import HumanHandover from "./components/HumanHandover";
+import ContextTransfer from "./components/ContextTransfer";
 
 export default function CollaborationPage() {
   return (
@@ -19,6 +20,7 @@ export default function CollaborationPage() {
       <InboundConversation />
       <AIResolution />
       <HumanHandover />
+      <ContextTransfer />
     </section>
   );
 }

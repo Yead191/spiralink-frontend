@@ -22,7 +22,7 @@ export default function CollaborationBanner() {
               AI + Human Collaboration 👋
             </span>
           </div>
-          <h1 className="section-title mt-6 text-4xl! lg:text-[78px] leading-[1.1] max-w-[600px]">
+          <h1 className="section-title mt-6 text-4xl! lg:text-[60px]! leading-[1.1] max-w-[600px]">
             Built for the reality of inbound customer support.
           </h1>
           <div className="flex flex-wrap gap-4 mt-8 lg:mt-16">

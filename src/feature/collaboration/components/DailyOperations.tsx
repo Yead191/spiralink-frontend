@@ -84,6 +84,7 @@ export default function DailyOperations() {
         alt="daily-operations"
         width={700}
         height={500}
+        draggable={false}
         className="absolute bottom-0 lg:bottom-20 2xl:bottom-30 lg:-right-40 2xl:right-0 z-0 w-fit object-contain h-[400px] 2xl:h-[500px] opacity-70 "
       />
     </section>

@@ -5,6 +5,7 @@ const navItems = [
   { labelKey: "partnerships", href: "/demo" },
   { labelKey: "Operations 24", href: "/operations24" },
   { labelKey: "Company", href: "/company" },
+  { labelKey: "Security", href: "/security" },
 ];
 
 export default navItems;

@@ -1,6 +1,8 @@
 import React from 'react'
 import SecurityBanner from './components/SecurityBanner'
 import ExplicitConsent from './components/ExplicitConsent'
+import TransparencyConversation from './components/TransparencyConversation'
+import LimitedDataLoggin from './components/LimitedDataLoggin'
 
 const SecurityPage = () => {
   return (
@@ -15,6 +17,8 @@ const SecurityPage = () => {
       >
         <SecurityBanner />
         <ExplicitConsent />
+        <TransparencyConversation />
+        <LimitedDataLoggin />
     </div>
   )
 }

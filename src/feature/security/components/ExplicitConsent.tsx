@@ -6,7 +6,7 @@ import React from 'react'
 const ExplicitConsent = () => {
   return (
     <div className="bg-black">
-    <div className='container flex flex-col md:flex-row items-center gap-10  py-10'>
+    <div className='container flex flex-col md:flex-row items-center gap-10  py-24 lg:py-32'>
         {/* Left Side Content */}
         <div className="w-full md:w-[60%]">
         <h1 className='section-title leading-[1.1]'>Explicit consent before <br /> data processing (GDPR)</h1>

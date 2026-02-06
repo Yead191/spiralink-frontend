@@ -6,7 +6,7 @@ const MARQUEE_IMAGES = [
   "/assets/images/operations/opposite/img1.jpg",
   "/assets/images/operations/opposite/img2.png",
   "/assets/images/operations/opposite/img3.png",
-  //   "/assets/images/operations/opposite/img4.png",
+  "/assets/images/operations/opposite/img1.jpg",
 ];
 
 export default function OppositeWay() {
@@ -21,7 +21,7 @@ export default function OppositeWay() {
               way.
             </h2>
           </div>
-          <div className="max-w-[400px] mx-auto text-center lg:text-start lg:absolute lg:top-65 lg:right-2/5 lg:translate-x-1/2 ">
+          <div className="max-w-[400px] mx-auto text-center lg:text-start lg:absolute lg:top-66 lg:right-2/5 lg:translate-x-1/2 ">
             <p className="section-subtitle">
               Our voice AI is designed to integrate directly into existing
               customer support operations, without disrupting how teams already

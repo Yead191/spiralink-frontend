@@ -1,6 +1,9 @@
 import React from "react";
 import OperationsBanner from "./components/OperationsBanner";
 import OppositeWay from "./components/OppositeWay";
+import ExistingSystem from "./components/ExistingSystem";
+import OperationalFlow from "./components/OperationalFlow";
+import OperationalControl from "./components/OperationalControl";
 
 export default function OperationPageMain() {
   return (
@@ -14,6 +17,9 @@ export default function OperationPageMain() {
     >
       <OperationsBanner />
       <OppositeWay />
+      <ExistingSystem />
+      <OperationalFlow />
+      <OperationalControl />
     </section>
   );
 }

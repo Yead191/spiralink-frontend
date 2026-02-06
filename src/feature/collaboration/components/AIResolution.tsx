@@ -146,7 +146,7 @@ export default function AIResolution() {
               background:
                 "linear-gradient(304.65deg, rgba(255, 255, 255, 0.05) 13.81%, rgba(153, 153, 153, 0.0332332) 33.55%, rgba(153, 153, 153, 0.0125) 81.13%)",
             }}
-            className="absolute lg:-bottom-10 lg:left-60 left-28 -bottom-20 ml-4 border border-white/10 p-4 lg:p-5 rounded-2xl w-56 lg:w-[280px] shadow-2xl"
+            className="absolute lg:-bottom-10 lg:left-60 left-28 -bottom-20 ml-4 border border-white/10 p-4 lg:p-5 rounded-2xl w-[200px] lg:w-[280px] shadow-2xl"
           >
             <p className="text-gray-300 text-sm leading-relaxed">
               Your AI voice agent is ready to take responsibility when you're
@@ -170,7 +170,7 @@ export default function AIResolution() {
             </p>
           </div>
           <div className="relative flex justify-end">
-            <div className="mr-auto w-[250px] h-[150px] md:h-32 lg:h-40 rounded-3xl overflow-hidden border border-white/10 relative flex justify-end">
+            <div className="mr-auto w-[220px] h-[150px] md:h-32 lg:h-40 rounded-3xl overflow-hidden border border-white/10 relative flex justify-end">
               <Image
                 src="/assets/images/collaboration/person1.jpg"
                 alt="Customer"

@@ -24,7 +24,7 @@ export default function OperationalControl() {
 
   return (
     <section className="py-8 lg:py-16 pb-16 lg:pb-32 ">
-      <div className="container mx-auto px-4">
+      <div className="container">
         <div className="flex flex-col gap-6">
           {/* Top Card */}
           <div

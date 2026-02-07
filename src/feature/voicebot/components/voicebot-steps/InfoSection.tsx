@@ -31,7 +31,7 @@ export default function InfoSection({
     <section className="relative md:rounded-3xl text-white p-4  md:p-12 overflow-hidden">
       {/* Step badge */}
       {step && (
-        <div className="flex flex-center gap-3">
+        <div className="flex items-center justify-center lg:justify-start lg:items-start gap-3">
           <BadgeHero label={step} />
           <div className="w-full h-0 border-t border-dotted border-[#C175FC] border-[1.5px] lg:hidden"></div>
         </div>

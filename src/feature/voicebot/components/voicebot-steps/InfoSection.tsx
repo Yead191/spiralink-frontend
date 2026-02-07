@@ -28,9 +28,14 @@ export default function InfoSection({
   closing,
 }: InfoSectionProps) {
   return (
-    <section className="relative rounded-3xl text-white p-8 md:p-12 overflow-hidden">
+    <section className="relative md:rounded-3xl text-white p-4  md:p-12 overflow-hidden">
       {/* Step badge */}
-      {step && <BadgeHero label={step} />}
+      {step && (
+        <div className="flex flex-center gap-3">
+          <BadgeHero label={step} />
+          <div className="w-full h-0 border-t border-dotted border-[#C175FC] border-[1.5px] lg:hidden"></div>
+        </div>
+      )}
 
       {/* Title */}
       <h2 className="section-title mt-6">{title}</h2>

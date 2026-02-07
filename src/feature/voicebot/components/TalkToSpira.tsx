@@ -5,7 +5,7 @@ import { LuAudioLines, LuMoveUpRight } from "react-icons/lu";
 
 export default function TalkToSpira() {
   return (
-    <div className="container relative py-8 lg:py-16 overflow-hidden">
+    <div className="container relative py-8  lg:py-16 overflow-hidden">
       {/* Background/Top Image Section */}
       <div className="flex justify-center items-center opacity-60">
         <Image
@@ -21,7 +21,7 @@ export default function TalkToSpira() {
       {/* Card Section - Positioned to overlap/follow the image */}
       <div className="mt-[-10%] md:mt-[-40px] lg:mt-[-170px] flex justify-center px-4 relative z-10 ">
         <div
-          className="w-full max-w-[1100px] bg-[#050507] rounded-[40px] md:rounded-[60px] p-8 md:p-16 lg:p-24 border-12 border-[#0e0e12] flex flex-col items-center text-center shadow-[0_0_100px_rgba(0,0,0,0.8)] relative overflow-hidden"
+          className="w-full max-w-[1100px] bg-[#050507] rounded-[40px] md:rounded-[60px] p-4 md:p-16 lg:p-24 border-12 border-[#0e0e12] flex flex-col items-center text-center shadow-[0_0_100px_rgba(0,0,0,0.8)] relative overflow-hidden"
           style={{
             background:
               "radial-gradient(circle at top, rgba(131, 58, 180, 0.05), transparent 70%), #050505",

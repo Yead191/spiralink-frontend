@@ -6,16 +6,16 @@ import React from 'react'
 const ExplicitConsent = () => {
     return (
 
-        <div className='container flex flex-col md:flex-row items-center gap-20 lg:gap-32 py-8 lg:py-16 relative'>
+        <div className='container flex flex-col-reverse md:flex-row items-center gap-30 md:gap-10 xl:gap-32 py-8  pt-36 md:pt-24 lg:py-16 relative'>
             {/* Left Side Content */}
-            <div className="relative w-full md:w-[40%] z-20">
-                <Image width={400} height={400} quality={100} src="/assets/bg/security/device.png" alt="Image" className="h-full w-full rounded-lg shadow-lg" />
+            <div className="relative w-full md:w-1/3 xl:w-[40%] z-20 -left-10 md:-left-20">
+                <Image width={400} height={400} quality={100} src="/assets/bg/security/device.png" alt="Image" className="h-full w-full scale-120 md:scale-160 xl:scale-100 rounded-lg shadow-lg" />
             </div>
 
             {/* Right Side Content */}
-            <div className="w-full md:w-[60%] z-20">
+            <div className="w-full md:w-2/3 xl:w-[60%] z-20">
                 <h1 className='section-title leading-[1.1]'>Transparency during <br /> the conversation</h1>
-                <p className='section-subtitle whitespace-nowrap!'>The voicebot communicates clearly throughout the interaction.</p>
+                <p className='section-subtitle xl:whitespace-nowrap!'>The voicebot communicates clearly throughout the interaction.</p>
 
                 <div className="mt-5">
                     <p className='text-xl text-primary font-bold mb-7'>This includes:</p>

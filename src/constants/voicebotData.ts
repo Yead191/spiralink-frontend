@@ -97,6 +97,56 @@ const step5 = {
     "Its behavior is constrained by the rules of the operation.",
   ],
 };
+const step6 = {
+  step: "Step 6",
+  title: "Engineering human handover points",
+  description: "Transfer to a human agent is designed as part of the system.",
+  highlightTitle: "We define:",
+  points: [
+    "When a transfer is triggered",
+    "How the agent resumes the conversation",
+    "What information is passed",
+    "What system context is included",
+  ],
+  footer: [
+    "When a human takes over, they receive the full conversation and system context.",
+    " ",
+    "The interaction continues without restarting.",
+  ],
+};
+const step7 = {
+  step: "Step 7",
+  title: "Internal testing before live deployment",
+  description: "Before going live, the voice agent is tested internally.",
+  highlightTitle: "We simulate:",
+  points: [
+    "Realistic call scenarios",
+    "System interactions",
+    "Unexpected inputs",
+    "Edge cases",
+    "Escalation paths",
+  ],
+  footer: [
+    "Only once the system behaves consistently across conversation and system actions does it move into production.",
+  ],
+};
+const step8 = {
+  step: "Step 8",
+  title: "Refinement after deployment",
+  description: "After launch, the system is reviewed and adjusted.",
+  highlightTitle: "We monitor: ",
+  points: [
+    "Conversation outcomes",
+    "System actions",
+    "Handover moments",
+    "Friction points",
+  ],
+  footer: [
+    "Adjustments are made as the operation evolves.",
+    " ",
+    "The voice agent improves alongside the support team.",
+  ],
+};
 
 const step1MarqueeTags = [
   { icon: LuHeadphones, label: "24/7 availability" },
@@ -107,4 +157,14 @@ const step1MarqueeTags = [
   { icon: LuZap, label: "No wait times" },
 ];
 
-export { step1, step2, step1MarqueeTags, step3, step4, step5 };
+export {
+  step1,
+  step2,
+  step1MarqueeTags,
+  step3,
+  step4,
+  step5,
+  step6,
+  step7,
+  step8,
+};

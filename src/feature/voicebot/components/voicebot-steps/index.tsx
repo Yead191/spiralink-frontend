@@ -1,7 +1,16 @@
 import React from "react";
 import InfoSection from "./InfoSection";
 import Step1Marquee from "./Step1Marquee";
-import { step1, step2, step3, step4, step5 } from "@/constants/voicebotData";
+import {
+  step1,
+  step2,
+  step3,
+  step4,
+  step5,
+  step6,
+  step7,
+  step8,
+} from "@/constants/voicebotData";
 import Image from "next/image";
 
 export default function VoicebotSteps() {
@@ -93,6 +102,54 @@ export default function VoicebotSteps() {
               </p>
             </div>
           </div>
+        </div>
+        {/* step6 */}
+        <div className="flex flex-col md:flex-row lg:gap-8 2xl:pt-40 ">
+          <div className="flex justify-center items-center lg:w-2/5 ">
+            <Image
+              src="/assets/images/voicebot/steps/step6.png"
+              alt="step6"
+              width={1000}
+              height={800}
+              className="w-fit lg:h-[600px] object-contain hidden md:block"
+              draggable={false}
+            />
+          </div>
+          <div className="lg:w-3/4 ">
+            <InfoSection {...step6} />
+          </div>
+        </div>
+        {/* step7 */}
+        <div className="flex flex-col md:flex-row lg:gap-8 2xl:pt-16 ">
+          <div className="md:w-1/2">
+            <InfoSection {...step7} />
+          </div>
+          <div className="flex justify-center items-center md:w-1/2">
+            <Image
+              src="/assets/images/voicebot/steps/step7.png"
+              alt="step7"
+              width={1000}
+              height={800}
+              className="w-fit lg:h-[600px] object-contain hidden md:block"
+              draggable={false}
+            />
+          </div>
+        </div>
+      </div>
+      {/* step8 */}
+      <div className="flex flex-col md:flex-row lg:gap-8 2xl:pt-32  lg:w-4/6 ml-auto justify-end items-center relative  ">
+        <div className="md:w-1/2">
+          <InfoSection {...step8} />
+        </div>
+        <div className="flex justify-center items-center md:w-1/2">
+          <Image
+            src="/assets/images/voicebot/steps/step8.png"
+            alt="step8"
+            width={1000}
+            height={800}
+            className="w-fit lg:h-[600px] object-contain hidden md:block lg:scale-150 lg:-mr-20 2xl:-mr-42"
+            draggable={false}
+          />
         </div>
       </div>
     </div>

@@ -4,8 +4,8 @@ const navItems = [
   { labelKey: "Operations", href: "/operations" },
   { labelKey: "Voicebot", href: "/voicebot" },
   { labelKey: "24/7", href: "/operations24" },
-  { labelKey: "Company", href: "/company" },
   { labelKey: "Security", href: "/security" },
+  // { labelKey: "Company", href: "/company" },
 ];
 
 export default navItems;

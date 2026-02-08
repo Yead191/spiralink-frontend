@@ -4,8 +4,8 @@ import React from 'react'
 
 const AudibilitySecurity = () => {
     return (
-        <div className='container mx-auto pt-8 lg:pt-16 px-4 lg:px-0 xl:-mb-24'>
-            <div className="flex pb-8 xl:pb-32 lg:grid lg:grid-cols-2 gap-4 xl:gap-20 overflow-x-auto lg:pb-0 snap-x snap-mandatory scrollbar-hide -mx-4 px-4 lg:mx-0 lg:px-0 items-center">
+        <div className='container mx-auto pt-60 md:pt-16 px-4 lg:px-0 xl:-mb-24'>
+            <div className="grid  gap-12 md:gap-20 pb-8 xl:pb-32 lg:grid lg:grid-cols-2  xl:gap-20 overflow-x-auto lg:pb-0 snap-x snap-mandatory scrollbar-hide -mx-4 px-4 lg:mx-0 lg:px-0 items-center relative">
                 {/* Left Content */}
                 <div
                     style={{
@@ -44,7 +44,7 @@ const AudibilitySecurity = () => {
                         <p className='section-subtitle'>GDPR and HIPAA compliance are enforced through how the system behaves in real time.</p>
                     </div>
 
-                    <div className="mt-20">
+                    <div className="lg:mt-20">
                         <div className="">
                             <p className='text-xl text-primary font-bold mb-7'>The voicebot is designed to:</p>
                             <ul className='flex flex-col gap-2 text-lg'>
@@ -56,6 +56,11 @@ const AudibilitySecurity = () => {
                         </div>
                     </div>
                 </div>
+
+                <div
+                    className="absolute top-1/3 w-80! h-80! left-3/5! md:hidden inset-0 z-10 blur-xl opacity-70 group-hover:opacity-30 transition-opacity duration-500 rounded-full"
+                    style={{ backgroundColor: "#BC72F873" }}
+                />
             </div>
             <Image
                 src="/assets/bg/Spiralink.png"

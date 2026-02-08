@@ -1,10 +1,11 @@
 const navItems = [
   { labelKey: "The Tech", href: "/" },
   { labelKey: "Collaboration", href: "/collaboration" },
-  { labelKey: "partnerships", href: "/demo" },
-  { labelKey: "Resources", href: "/resources" },
-  { labelKey: "Company", href: "/company" },
+  { labelKey: "Operations", href: "/operations" },
+  { labelKey: "Voicebot", href: "/voicebot" },
+  { labelKey: "24/7", href: "/operations24" },
   { labelKey: "Security", href: "/security" },
+  // { labelKey: "Company", href: "/company" },
 ];
 
 export default navItems;

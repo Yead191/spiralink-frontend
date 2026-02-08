@@ -4,7 +4,7 @@ import React from "react";
 
 export default function CollaborationBanner() {
   return (
-    <section className="text-white pt-6 lg:pt-24 lg:py-20 relative overflow-hidden">
+    <section className="text-white pt-6 lg:pt-24 lg:py-20 relative overflow-hidden pb-8">
       {/* 1st section */}
       <div className="container mx-auto w-full flex flex-col md:flex-row gap-5 z-10 pt-20 2xl:pt-28 relative ">
         {/* left */}
@@ -22,7 +22,7 @@ export default function CollaborationBanner() {
               AI + Human Collaboration 👋
             </span>
           </div>
-          <h1 className="section-title mt-6 text-4xl! lg:text-[78px] leading-[1.1] max-w-[600px]">
+          <h1 className="section-title mt-6 text-4xl! lg:text-[60px]! leading-[1.1] max-w-[600px]">
             Built for the reality of inbound customer support.
           </h1>
           <div className="flex flex-wrap gap-4 mt-8 lg:mt-16">
@@ -57,7 +57,7 @@ export default function CollaborationBanner() {
       </div>
 
       {/* SpiraLink Reality Section */}
-      <div className="container mx-auto relative z-10 pb-20  lg:-mt-72">
+      <div className="container mx-auto relative z-10  lg:-mt-72">
         {/* Inbound Info Block */}
         <div className="max-w-md mb-8 lg:mb-16">
           <div className="flex flex-col md:flex-row md:ap-3">
@@ -72,7 +72,7 @@ export default function CollaborationBanner() {
               </span>
             </h3>
           </div>
-          <p className="section-subtitle text-sm! md:pl-10.5">
+          <p className="section-subtitle text-sm! md:pl-10.5 lg:pl-8">
             Some calls are straightforward and repeatable. Others require
             judgment, empathy, or experience.
           </p>
@@ -104,7 +104,7 @@ export default function CollaborationBanner() {
         alt="line"
         width={600}
         height={600}
-        className="absolute bottom-226 -left-49  lg:bottom-65 lg:-left-85 2xl:-left-15 h-auto 2xl:scale-125 z-0 pointer-events-none "
+        className="absolute bottom-226 -left-49  lg:bottom-45  lg:-left-85 2xl:-left-15 h-auto 2xl:scale-125 z-0 pointer-events-none "
         draggable={false}
       />
     </section>

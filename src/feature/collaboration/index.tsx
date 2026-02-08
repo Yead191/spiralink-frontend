@@ -1,5 +1,10 @@
 import React from "react";
 import CollaborationBanner from "./components/CollaborationBanner";
+import InboundConversation from "./components/InboundConversation";
+import AIResolution from "./components/AIResolution";
+import HumanHandover from "./components/HumanHandover";
+import ContextTransfer from "./components/ContextTransfer";
+import DailyOperations from "./components/DailyOperations";
 
 export default function CollaborationPage() {
   return (
@@ -13,6 +18,11 @@ export default function CollaborationPage() {
       className="min-h-screen"
     >
       <CollaborationBanner />
+      <InboundConversation />
+      <AIResolution />
+      <HumanHandover />
+      <ContextTransfer />
+      <DailyOperations />
     </section>
   );
 }

@@ -3,6 +3,7 @@ import BadgeHero from "@/shared/BadgeHero";
 import { BadgeCheck, MoveUpRight } from "lucide-react";
 import Image from "next/image";
 import PrimaryButton from "@/shared/PrimaryButton";
+import Link from "next/link";
 
 const RESOLUTION_POINTS = [
   "High-volume inbound inquiries",
@@ -197,10 +198,12 @@ export default function AIResolution() {
             involvement, reducing queue pressure and stabilizing operations.
           </p>
 
-          <PrimaryButton
-            label="Request free tailored demo"
-            className="bg-linear-to-b from-[#7D3BB7] to-[#2C4C91] text-white"
-          />
+          <Link href="/demo">
+            <PrimaryButton
+              label="Request free tailored demo"
+              className="bg-linear-to-b from-[#7D3BB7] to-[#2C4C91] text-white"
+            />
+          </Link>
         </div>
       </div>
     </section>

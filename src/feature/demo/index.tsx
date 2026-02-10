@@ -5,7 +5,7 @@ export default async function DemoPage() {
   return (
     <section
       style={{
-        backgroundImage: "url('/assets/bg/layout-bg.svg')",
+        backgroundImage: "url('/assets/bg/demo/demo-bg.svg')",
         backgroundSize: "cover",
         // backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

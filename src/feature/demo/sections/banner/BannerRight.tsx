@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Plus, Minus } from "lucide-react";
+import Image from "next/image";
 
 export default function BannerRight() {
   const [activeAccordion, setActiveAccordion] = useState<number[]>([
@@ -440,7 +441,7 @@ export default function BannerRight() {
           </div>
         </form>
       </div>
-      <div className="pt-6">
+      <div className="pt-6 relative">
         <button
           style={{
             background: "linear-gradient(135deg, #7D3BB7 0%, #2C4C91 100%)",
@@ -451,11 +452,11 @@ export default function BannerRight() {
               "linear-gradient(90deg, #C175FC 0%, #6C35BE 100%)",
           }}
           type="submit"
-          className="w-full  text-white font-semibold py-4 rounded-full transition-all cursor-pointer!  hover:scale-105! "
+          className="w-full  text-white font-semibold py-4 rounded-full transition-all cursor-pointer!  hover:scale-105! relative z-10 "
         >
           Request Free Demo
         </button>
-        <p className="text-center text-sm lg:text-base text-white/80! mt-6">
+        <p className="text-center text-sm lg:text-base text-white/80! mt-6 relative z-10">
           Prefer to email first?{" "}
           <a
             href="mailto:hello@spiralink.com"
@@ -464,6 +465,14 @@ export default function BannerRight() {
             hello@spiralink.com
           </a>
         </p>
+        <Image
+          src={"/assets/images/home/line.png"}
+          alt="line"
+          width={600}
+          height={600}
+          className="absolute -right-[60%] lg:-right-[75%] top-[47px] w-contain h-auto z-0"
+          draggable={false}
+        />
       </div>
     </section>
   );

@@ -43,14 +43,6 @@ export default function Banner() {
   "
         />
       </div>
-      <Image
-        src={"/assets/images/home/line.png"}
-        alt="line"
-        width={600}
-        height={600}
-        className="absolute bottom-11 md:bottom-18 md:-right-92 lg:bottom-60 -right-64 lg:-right-96  2xl:-right-60 w-contain h-auto"
-        draggable={false}
-      />
     </div>
   );
 }

@@ -102,7 +102,7 @@ export default function CollaborationBanner() {
           alt="line"
           width={600}
           height={600}
-          className="absolute -left-[44%] lg:-left-[28%] 2xl:-left-[30%] lg:top-10 lg:scale-120 w-contain h-auto z-0"
+          className="absolute -left-[44%] lg:-left-[28%] 2xl:-left-[30%] lg:top-10 lg:scale-120 w-contain h-auto z-0 hidden md:block"
           draggable={false}
         />
       </div>

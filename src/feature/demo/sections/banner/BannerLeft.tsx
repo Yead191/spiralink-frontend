@@ -6,6 +6,7 @@ import {
   PhoneCall,
   CheckSquare,
 } from "lucide-react";
+import Image from "next/image";
 export default function BannerLeft() {
   const steps = [
     {
@@ -35,7 +36,7 @@ export default function BannerLeft() {
     },
   ];
   return (
-    <div className="flex flex-col justify-center">
+    <div className="flex flex-col justify-center relative pl-4 lg:pl-6 2xl:pl-0">
       <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
         Call it yourself.
         <br />
@@ -56,7 +57,7 @@ export default function BannerLeft() {
       </h3>
 
       {/* Steps Grid - Scrollable on Mobile */}
-      <div className="flex lg:grid lg:grid-cols-2 gap-4 overflow-x-auto pb-4 lg:pb-0 snap-x snap-mandatory scrollbar-hide -mx-4 px-4 lg:mx-0 lg:px-0 items-center">
+      <div className="flex lg:grid lg:grid-cols-2 gap-4 overflow-x-auto pb-4 lg:pb-0 snap-x snap-mandatory scrollbar-hide -mx-4 px-4 lg:mx-0 lg:px-0 items-center relative z-10">
         {steps.map((step, index) => (
           <div
             key={index}
@@ -102,6 +103,14 @@ export default function BannerLeft() {
           decide. That&apos;s the only way to prove this actually works.
         </p>
       </div>
+      <Image
+        src={"/assets/lines/demo/demo-line.svg"}
+        alt="line"
+        width={600}
+        height={600}
+        className="absolute -left-[32%] md:-left-[27%] top-39 lg:-left-[32%] 2xl:-left-[45%] lg:top-[15%] w-contain h-auto scale-200 z-0"
+        draggable={false}
+      />
     </div>
   );
 }

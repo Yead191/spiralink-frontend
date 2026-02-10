@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function HomeBanner() {
   return (
     <section className="text-white pt-24 lg:py-20 md:min-h-screen flex items-center relative overflow-hidden">
-      <div className="container mx-auto w-full flex flex-col md:flex-row gap-5 lg:gap-0 items-end lg:grid lg:grid-cols-12 z-10">
+      <div className="container mx-auto w-full flex flex-col lg:flex-row gap-5 lg:gap-0 items-end lg:grid lg:grid-cols-12 z-10 ">
         {/* Left Content */}
-        <div className=" space-y-8 lg:col-span-6 2xl:col-span-7">
+        <div className=" space-y-8 lg:col-span-6 2xl:col-span-7 relative lg:pl-6 2xl:pl-0">
           {/* Glowing Tag */}
           <div
             style={{
@@ -28,6 +28,14 @@ export default function HomeBanner() {
             Humanlike AI Voicebots built exclusively <br className="" /> for
             call centers.
           </h1>
+          <Image
+            src={"/assets/bg/home/home-line.svg"}
+            alt="line"
+            width={600}
+            height={600}
+            className="absolute -left-[44%] lg:-left-[40%] lg:top-[25%] w-contain h-auto 2xl:scale-150 z-0"
+            draggable={false}
+          />
         </div>
 
         {/* Right Content */}
@@ -49,14 +57,15 @@ export default function HomeBanner() {
           </div>
         </div>
       </div>
-      <Image
+      {/* <Image
         src={"/assets/bg/home/home-line.svg"}
         alt="line"
         width={600}
         height={600}
         className="absolute bottom-0 md:top-18 md:-right-92 lg:top-3/8 2xl:top-2/5 -left-38.5 lg:-left-60  2xl:left-0 w-contain h-auto 2xl:scale-150 z-0"
         draggable={false}
-      />
+      /> */}
+
       <Image
         src={"/assets/bg/home/home-line2.svg"}
         alt="line"

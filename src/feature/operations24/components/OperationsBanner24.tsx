@@ -4,7 +4,8 @@ import Image from "next/image";
 
 export default function OperationBanner24() {
   return (
-    <section className="text-white md:mr-0 -mr-42 md:mt-0 contain pt-24 lg:py-20 min-h-screen flex items-center relative overflow-hidden"
+    <section
+      className="text-white md:mr-0 -mr-42 md:mt-0 contain pt-24 lg:py-20 lg:min-h-screen flex items-center relative overflow-hidden"
       style={{
         backgroundImage: `
   linear-gradient(
@@ -27,7 +28,8 @@ export default function OperationBanner24() {
     >
       <div className="container mx-auto w-full md:mt-0 mt-14 flex flex-col md:flex-row gap-5 lg:gap-0 items-end lg:grid lg:grid-cols-12 z-10">
         {/* Left Content */}
-        <div className="   space-y-4
+        <div
+          className="   space-y-4
   [&>*:first-child]:mt-0
   [&>*:last-child]:mb-0
   lg:col-span-6
@@ -37,7 +39,8 @@ export default function OperationBanner24() {
   xl:ml-10
   2xl:ml-0
   ml-2
-  ">
+  relative "
+        >
           {/* Glowing Tag */}
           <div
             style={{
@@ -78,7 +81,6 @@ export default function OperationBanner24() {
             support, not office hours
           </h1>
 
-
           <p
             className="
     text-white tracking-wide
@@ -91,13 +93,20 @@ export default function OperationBanner24() {
     whitespace-normal
   "
           >
-            Inbound customer support does not pause. Calls come in at night, during weekends,
-            and under peak pressure. SpiraLink voicebots are built to operate continuously,
-            without relying on human supervision or fragile setups.
+            Inbound customer support does not pause. Calls come in at night,
+            during weekends, and under peak pressure. SpiraLink voicebots are
+            built to operate continuously, without relying on human supervision
+            or fragile setups.
           </p>
 
-
-
+          <Image
+            src={"/assets/bg/operations/left-bg.png"}
+            alt="line"
+            width={700}
+            height={700}
+            className="absolute -left-[42%] lg:-left-[40%] lg:top-[15%] top-[10%] w-contain h-auto lg:scale-150 z-0"
+            draggable={false}
+          />
         </div>
 
         {/* Right Content */}
@@ -132,22 +141,11 @@ export default function OperationBanner24() {
       break-words
     "
           >
-            This page explains how the system behaves when things are stable, when volume
-            spikes, and when something goes wrong.
+            This page explains how the system behaves when things are stable,
+            when volume spikes, and when something goes wrong.
           </p>
         </div>
-
-
       </div>
-
-      <Image
-        src={"/assets/bg/operations/left-bg.png"}
-        alt="line"
-        width={700}
-        height={700}
-        className="absolute bottom-0 md:top-18 md:-right-92 top-1/3 md:lg:top-3/8 2xl:top-6/18 -left-49  md:-left-40 md:lg:-left-60  2xl:left-1 w-contain h-auto 2xl:scale-150 z-0"
-        draggable={false}
-      />
     </section>
   );
 }

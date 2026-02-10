@@ -15,7 +15,7 @@ export default function OperationsBanner() {
       >
         <div className="container grid grid-cols-1 md:grid-cols-2 pt-36 md:pt-48 ">
           {/* left */}
-          <div className="pl-6 2xl:pl-0">
+          <div className="pl-6 2xl:pl-0 relative">
             {/* Glowing Tag */}
             <div
               style={{
@@ -38,6 +38,14 @@ export default function OperationsBanner() {
               instead of inside it. Teams are forced to adapt their workflows,
               tools, and processes around the technology.
             </p>
+            <Image
+              src="/assets/lines/operations/banner-line.svg"
+              alt="line"
+              width={600}
+              height={600}
+              className="absolute -left-[44%] lg:-left-[40%] lg:top-[25%] w-contain h-auto 2xl:scale-150 z-0 hidden md:block"
+              draggable={false}
+            />
           </div>
         </div>
         <Image
@@ -45,7 +53,7 @@ export default function OperationsBanner() {
           alt="line"
           width={600}
           height={600}
-          className="absolute bottom-4 -left-28 md:bottom-10 md:-left-50 lg:bottom-16  2xl:bottom-80  lg:-left-85 2xl:-left-44   lg:h-[380px] 2xl:h-[480px] lg:w-fit z-0 object-contain pointer-events-none scale-150 lg:scale-100"
+          className="absolute bottom-4 -left-28 md:bottom-10 md:-left-50 lg:bottom-16  2xl:bottom-80  lg:-left-85 2xl:-left-44   lg:h-[380px] 2xl:h-[480px] lg:w-fit z-0 object-contain pointer-events-none scale-150 lg:scale-100 md:hidden"
           draggable={false}
         />
       </section>

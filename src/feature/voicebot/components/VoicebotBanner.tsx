@@ -8,7 +8,7 @@ export default function VoicebotBanner() {
       <div className="container relative z-10 ">
         <div className="grid grid-cols-1 md:grid-cols-2 md:items-end pl-4 md:pl-0">
           {/* left */}
-          <div>
+          <div className="relative lg:pl-6 2xl:pl-0">
             <div
               style={{
                 background: "#010403A6",
@@ -24,9 +24,17 @@ export default function VoicebotBanner() {
             <h1 className="section-title mt-6 text-4xl! lg:text-[60px]! leading-[1.1] max-w-[600px]">
               How a voice agent is built for a specific support operation.
             </h1>
+            <Image
+              src="/assets/lines/voicebot/line-top.svg"
+              alt="line"
+              width={600}
+              height={600}
+              className="absolute -left-[44%] lg:-left-[64%] 2xl:-left-[70%] lg:-top-[25%] w-contain h-auto lg:scale-150 z-0 hidden md:block"
+              draggable={false}
+            />
           </div>
           {/* right */}
-          <div className="flex justify-end">
+          <div className="flex justify-end relative">
             <div className=" mb-8 lg:mb-16">
               <div className="flex flex-col md:flex-row md:gap-3 ">
                 <Asterisk className="w-8 h-8 text-primary mb-4" />
@@ -50,6 +58,14 @@ export default function VoicebotBanner() {
           Each voice agent is manufactured for one specific inbound customer
           support environment.
         </p>
+        <Image
+          src="/assets/lines/voicebot/line-bottom.svg"
+          alt="line"
+          width={600}
+          height={600}
+          className="absolute -right-[44%] lg:-right-[220px] lg:-bottom-[280px] w-contain h-auto lg:scale-150 z-0"
+          draggable={false}
+        />
       </div>
 
       {/* lines */}
@@ -58,15 +74,16 @@ export default function VoicebotBanner() {
         alt="line"
         width={600}
         height={600}
-        className="absolute top-21 -left-52   lg:top-42  lg:-left-89 2xl:-left-24 h-auto 2xl:scale-125 z-0 pointer-events-none "
+        className="absolute top-21 -left-52   lg:top-42  lg:-left-89 2xl:-left-24 h-auto 2xl:scale-125 z-0 pointer-events-none md:hidden"
         draggable={false}
       />
+
       <Image
         src="/assets/lines/voicebot/line-bottom.svg"
         alt="line"
         width={600}
         height={600}
-        className="absolute bottom-226 -right-49  lg:-bottom-35.5  lg:-right-24 2xl:right-24 h-auto 2xl:scale-125 z-0 pointer-events-none "
+        className="absolute bottom-226 -right-49  lg:-bottom-35.5  lg:-right-24 2xl:right-24 h-auto 2xl:scale-125 z-0 pointer-events-none md:hidden"
         draggable={false}
       />
     </section>

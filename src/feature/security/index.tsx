@@ -1,11 +1,11 @@
-import AudibilitySecurity from './components/AudibilitySecurity'
-import ControlledAccess from './components/ControlledAccess'
-import DataRetention from './components/DataRetention'
-import ExplicitConsent from './components/ExplicitConsent'
-import HummanIntervention from './components/HummanIntervention'
-import LimitedDataLoggin from './components/LimitedDataLoggin'
-import SecurityBanner from './components/SecurityBanner'
-import TransparencyConversation from './components/TransparencyConversation'
+import AudibilitySecurity from "./components/AudibilitySecurity";
+import ControlledAccess from "./components/ControlledAccess";
+import DataRetention from "./components/DataRetention";
+import ExplicitConsent from "./components/ExplicitConsent";
+import HummanIntervention from "./components/HummanIntervention";
+import LimitedDataLoggin from "./components/LimitedDataLoggin";
+import SecurityBanner from "./components/SecurityBanner";
+import TransparencyConversation from "./components/TransparencyConversation";
 
 const SecurityPage = () => {
   return (
@@ -26,9 +26,8 @@ const SecurityPage = () => {
       <HummanIntervention />
       <DataRetention />
       <AudibilitySecurity />
-      
     </div>
-  )
-}
+  );
+};
 
-export default SecurityPage
+export default SecurityPage;

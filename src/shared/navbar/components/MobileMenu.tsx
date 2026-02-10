@@ -20,7 +20,7 @@ export default function MobileMenu({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-40 flex flex-col pt-8 overflow-y-auto lg:hidden animate-in fade-in slide-in-from-top-4 duration-500 ">
+    <div className="fixed inset-0 z-40 flex flex-col pt-8 overflow-y-auto lg:hidden animate-in fade-in slide-in-from-top-4 duration-500 bg-black">
       {/* Background Image / Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -28,6 +28,7 @@ export default function MobileMenu({
           alt="Menu Background"
           fill
           className="object-cover"
+          draggable={false}
           priority
         />
         {/* Dark Overlay to ensure readability and cover background content */}
@@ -56,14 +57,14 @@ export default function MobileMenu({
         {/* Bottom Buttons */}
         <div className="flex flex-col gap-4 w-full">
           <Link
-            href="/contact"
+            href="#"
             onClick={onClose}
             className="flex items-center justify-center gap-2 bg-white text-black py-2 rounded-full text-lg font-semibold transition-transform active:scale-95"
           >
             Contact us <LuArrowUpRight size={22} />
           </Link>
           <Link
-            href="/request-demo"
+            href="/demo"
             onClick={onClose}
             className="flex items-center justify-center gap-2 bg-linear-to-r from-[#7D3BB7] to-[#2C4C91] text-white py-2 rounded-full text-lg font-semibold shadow-[0_0_20px_rgba(125,59,183,0.3)] transition-transform active:scale-95"
           >

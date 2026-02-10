@@ -50,7 +50,15 @@ export default function CollaborationBanner() {
               alt="collaboration"
               width={1000}
               height={800}
-              className="w-fit lg:h-[723px] 2xl:h-[900px] lg:-mt-10 "
+              className="w-fit lg:h-[723px] 2xl:h-[900px] lg:-mt-10 relative z-10"
+            />
+            <Image
+              src={"/assets/lines/collab/line-up.svg"}
+              alt="line"
+              width={600}
+              height={600}
+              className="absolute  lg:-top-20  lg:-right-76  2xl:-right-110 w-contain h-auto lg:scale-150 z-0 hidden md:block"
+              draggable={false}
             />
           </div>
         </div>
@@ -89,22 +97,30 @@ export default function CollaborationBanner() {
             controlled, and designed for real call center operations.
           </p>
         </div>
+        <Image
+          src="/assets/lines/collab/inbound.svg"
+          alt="line"
+          width={600}
+          height={600}
+          className="absolute -left-[44%] lg:-left-[28%] 2xl:-left-[30%] lg:top-10 lg:scale-120 w-contain h-auto z-0"
+          draggable={false}
+        />
       </div>
       {/* lines */}
-      <Image
+      {/* <Image
         src={"/assets/lines/collab/line-up.svg"}
         alt="line"
         width={600}
         height={600}
         className="absolute  lg:top-28  lg:-right-96  2xl:-right-30 w-contain h-auto lg:scale-150 z-0 hidden md:block"
         draggable={false}
-      />
+      /> */}
       <Image
         src="/assets/lines/collab/inbound.svg"
         alt="line"
         width={600}
         height={600}
-        className="absolute bottom-226 -left-49  lg:bottom-45  lg:-left-85 2xl:-left-15 h-auto 2xl:scale-125 z-0 pointer-events-none "
+        className="absolute bottom-226 -left-49  lg:bottom-45  lg:-left-85 2xl:-left-15 h-auto 2xl:scale-125 z-0 pointer-events-none md:hidden"
         draggable={false}
       />
     </section>

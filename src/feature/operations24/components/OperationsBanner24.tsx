@@ -89,7 +89,7 @@ export default function OperationBanner24() {
     md:text-base md:leading-8
     pl-2 md:pl-0
     w-full max-w-full md:max-w-xl
-    break-words
+  wrap-break-word
     whitespace-normal
   "
           >
@@ -138,7 +138,7 @@ export default function OperationBanner24() {
       leading-relaxed
       max-w-full md:max-w-md
       pl-4 md:pl-6
-      break-words
+   wrap-break-word
     "
           >
             This page explains how the system behaves when things are stable,

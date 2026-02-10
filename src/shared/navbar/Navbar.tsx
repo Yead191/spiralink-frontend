@@ -100,13 +100,13 @@ export default function Navbar() {
               {/* Contact & Request Demo Buttons */}
               <div className="hidden lg:flex items-center gap-4">
                 <Link
-                  href="/contact"
+                  href="#"
                   className="flex items-center gap-2 bg-[#1d1f22] hover:bg-[#2F2F2F] text-white px-5 py-2.5 rounded-full transition-colors text-sm font-medium"
                 >
                   Contact <LuArrowUpRight />
                 </Link>
                 <Link
-                  href="/request-demo"
+                  href="/demo"
                   className="flex items-center gap-2 bg-linear-to-r from-[#7D3BB7] to-[#2C4C91] hover:opacity-90 text-white px-5 py-2.5 rounded-full transition-all text-sm font-medium"
                 >
                   Request demo <LuArrowUpRight />

@@ -63,7 +63,7 @@ export default function VoicebotBanner() {
           alt="line"
           width={600}
           height={600}
-          className="absolute -right-[44%] lg:-right-[220px] lg:-bottom-[280px] w-contain h-auto lg:scale-150 z-0"
+          className="absolute -right-[44%] lg:-right-[220px] lg:-bottom-[280px] w-contain h-auto lg:scale-150 z-0 hidden md:block"
           draggable={false}
         />
       </div>

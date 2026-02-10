@@ -4,10 +4,10 @@ import React from 'react'
 
 const DataRetention = () => {
     return (
-        <div className='container flex flex-col items-center justify-center md:flex-row  gap-28 lg:gap-20 py-8 lg:py-16 relative'>
+        <div className='container flex flex-col-reverse items-center justify-center md:flex-row  gap-14 lg:gap-20 py-8 pt-32 lg:py-16 relative'>
             {/* Left Side Content */}
-            <div className="relative w-full xl:w-1/3 z-20">
-                <Image width={400} height={400} quality={100} src="/assets/images/security/Group 2147226701.png" alt="Image" className="h-full w-full scale-180 mx-auto rounded-lg shadow-lg" />
+            <div className="relative w-full lg:w-1/3 md:-left-20 lg:left-0 top-30 md:top-0 z-20">
+                <Image width={400} height={400} quality={100} src="/assets/images/security/Group 2147226701.png" alt="Image" className="h-full w-full scale-180 md:scale-[370%] object-cover lg:scale-180 mx-auto rounded-lg shadow-lg" />
             </div>
 
             {/* Right Side Content */}

@@ -1,6 +1,7 @@
 import React from "react";
 import { MoveUpRight, Zap } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomeBanner() {
   return (
@@ -47,10 +48,12 @@ export default function HomeBanner() {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <button className="flex items-center justify-center gap-2 bg-white text-[#050507] px-6 py-3.5 rounded-full font-bold hover:bg-gray-100 transition-colors group cursor-pointer w-full md:w-auto text-center">
-              Request free tailored demo
-              <MoveUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-            </button>
+            <Link href="/demo" className="w-full md:w-auto">
+              <button className="flex items-center justify-center gap-2 bg-white text-[#050507] px-6 py-3.5 rounded-full font-bold hover:bg-gray-100 transition-colors group cursor-pointer w-full md:w-auto text-center">
+                Request free tailored demo
+                <MoveUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+              </button>
+            </Link>
             <button className="px-6 py-3.5 rounded-full font-semibold bg-[#1A1A1A] text-white border border-white/10 hover:bg-[#252525] transition-colors cursor-pointer w-full md:w-auto text-center">
               Listen to samples
             </button>

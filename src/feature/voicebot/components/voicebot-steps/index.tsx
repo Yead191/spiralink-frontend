@@ -16,7 +16,7 @@ import StepLine from "./StepLine";
 
 export default function VoicebotSteps() {
   return (
-    <div className="pb-8">
+    <div className="pb-8 pt-8 lg:pt-0">
       <div className="md:max-w-6xl  mx-auto md:px-4 -mt-10">
         {/* step1 */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-8 relative ">

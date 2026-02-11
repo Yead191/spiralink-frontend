@@ -28,7 +28,7 @@ export default function InfoSection({
   closing,
 }: InfoSectionProps) {
   return (
-    <section className="relative md:rounded-3xl text-white p-4  md:p-12 overflow-hidden">
+    <section className="relative md:rounded-3xl text-white p-4  md:px-12 md:py-8 overflow-hidden">
       {/* Step badge */}
       {step && (
         <div className="flex items-center justify-center lg:justify-start lg:items-start gap-3">

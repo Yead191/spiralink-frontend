@@ -59,7 +59,7 @@ export default function ProductCards() {
   const { cards } = productCardsData;
 
   return (
-    <section className="container mx-auto my-8 lg:my-16 bg-transparent">
+    <section className="container mx-auto my-8 lg:my-16 bg-transparent mb-16 lg:mb-32">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
         {cards?.map((card) => (
           <div
@@ -82,8 +82,8 @@ export default function ProductCards() {
             {/* Title Section */}
             <h2
               className={`
-                font-bold leading-tight mb-8
-                ${card.isLarge ? "text-2xl md:text-4xl max-w-2xl" : "text-xl md:text-3xl lg:text-4xl"}
+                font-semibold lg:font-bold leading-tight mb-8 
+                ${card.isLarge ? "text-[28px] md:text-4xl max-w-2xl" : "text-[28px] lg:text-4xl"}
               `}
             >
               {Array.isArray(card.title)

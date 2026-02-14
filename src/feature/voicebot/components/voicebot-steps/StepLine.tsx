@@ -23,7 +23,7 @@ export default function StepLine({
       width={width}
       height={height}
       draggable={false}
-      className={`w-fit lg:h-full absolute object-contain ${className} hidden lg:block`}
+      className={`w-fit lg:h-full absolute object-contain hidden lg:block ${className}`}
     />
   );
 }

@@ -159,52 +159,63 @@ export default function VoicebotSteps() {
           />
         </div>
         {/* step7 */}
-        <div className="flex flex-col md:flex-row lg:gap-8 pt-16 lg:pt-10 relative ">
-          <div className="md:w-1/2">
-            <InfoSection {...step7} />
+        <div className="w-full  relative ">
+          <div className="flex flex-col md:flex-row lg:gap-8 pt-16 lg:pt-10  ">
+            <div className="md:w-1/2">
+              <InfoSection {...step7} />
+            </div>
+            <div className="flex justify-center items-center md:w-1/2 px-4 lg:px-0">
+              <Image
+                src="/assets/images/voicebot/steps/step7.png"
+                alt="step7"
+                width={1000}
+                height={800}
+                className="w-fit lg:h-[600px] object-contain "
+                draggable={false}
+              />
+            </div>
           </div>
-          <div className="flex justify-center items-center md:w-1/2 px-4 lg:px-0">
-            <Image
-              src="/assets/images/voicebot/steps/step7.png"
+          <div className="absolute -top-9 2xl:left-[27.8%] lg:left-[25%]  w-full h-full">
+            <StepLine
+              src="/assets/lines/voicebot/steps/step7.png"
               alt="step7"
-              width={1000}
-              height={800}
-              className="w-fit lg:h-[600px] object-contain "
-              draggable={false}
+              className=" block! top-0 left-0  "
             />
           </div>
-          <StepLine
-            src="/assets/lines/voicebot/steps/step7.png"
-            alt="step7"
-            className=" -top-9 left-[27.8%] "
-          />
         </div>
-      </div>
-      {/* step8 */}
-      <div className="flex flex-col md:flex-row lg:gap-8 pt-16 lg:pt-4  lg:w-4/6 ml-auto justify-end items-center relative  ">
-        <div className="md:w-1/2">
-          <InfoSection {...step8} />
+        {/* step8 */}
+        <div className=" w-4/6   ml-auto  relative  ">
+          <div className="w-full flex flex-col md:flex-row lg:gap-8 lg:pt-20 pt-0! justify-end items-center">
+            <div className="md:w-1/2 ">
+              <InfoSection {...step8} />
+            </div>
+            <div className="flex justify-center items-center md:w-1/2">
+              <Image
+                src="/assets/images/voicebot/steps/step8.png"
+                alt="step8"
+                width={1000}
+                height={800}
+                className="w-full lg:h-[600px] object-contain lg:scale-150  lg:-mr-20 "
+                draggable={false}
+              />
+            </div>
+          </div>
+          <div className="absolute lg:-top-28 lg:-left-2 -top-40! -left-13! w-full h-full ">
+            <StepLine
+              src="/assets/lines/voicebot/steps/step8.png"
+              alt="step8"
+              className="block! lg:[clip-path:inset(19%_8%_0_0)] 2xl:[clip-path:inset(14%_0_0_0)] top-0 lg:left-0 "
+            />
+          </div>
+
+          <div className="absolute bottom-0 lg:-bottom-[30%] -left-13 w-[50%] h-[50%]">
+            <StepLine
+              src="/assets/lines/voicebot/steps/final-line.png"
+              alt="step8"
+              className="block! lg:[clip-path:inset(1%_0_0_0)] bottom-0 left-0 "
+            />
+          </div>
         </div>
-        <div className="flex justify-center items-center md:w-1/2">
-          <Image
-            src="/assets/images/voicebot/steps/step8.png"
-            alt="step8"
-            width={1000}
-            height={800}
-            className="w-fit lg:h-[600px] object-contain  lg:scale-150 lg:-mr-20 2xl:-mr-42"
-            draggable={false}
-          />
-        </div>
-        <StepLine
-          src="/assets/lines/voicebot/steps/step8.png"
-          alt="step8"
-          className=" -top-35 -left-4 "
-        />
-        <StepLine
-          src="/assets/lines/voicebot/steps/final-line.png"
-          alt="step8"
-          className=" -bottom-40 -left-4 w-fit! h-fit!"
-        />
       </div>
     </div>
   );

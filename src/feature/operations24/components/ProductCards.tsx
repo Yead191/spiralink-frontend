@@ -18,7 +18,7 @@ const PointList = ({
     )}
     <div className="space-y-3">
       {points?.map((point) => (
-        <div key={point} className="flex gap-3 items-start">
+        <div key={point} className="flex gap-3 items-center">
           <BadgeCheck className="w-6 h-6 text-purple-500 shrink-0" />
           <span className="text-white text-lg lg:text-xl leading-relaxed font-medium">
             {point}

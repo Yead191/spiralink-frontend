@@ -4,32 +4,22 @@ import Image from "next/image";
 
 export default function OperationBanner24() {
   return (
-    <section
-      className="text-white md:mr-0 -mr-42 md:mt-0 contain pt-24 lg:py-20 lg:min-h-screen flex items-center relative overflow-hidden"
-      style={{
-        backgroundImage: `
-  linear-gradient(
-    90deg,
-    rgba(0,0,0,0.9) 0%,
-    rgba(0,0,0,0.8) 30%,
-    rgba(0,0,0,0.65) 50%,
-    rgba(0,0,0,0.45) 65%,
-    rgba(0,0,0,0.25) 80%,
-    rgba(0,0,0,0) 100%
-  ),
-  url(/assets/bg/operations/operation-image.png)
-`,
+    <section className="pr-3.5 pt-4">
+      <div
+        className="text-white md:mr-0  md:mt-0 pt-20 contain lg:min-h-screen flex items-center relative overflow-hidden"
+        style={{
+          backgroundImage: `url(/assets/images/24-7/24-7-bg.png)`,
 
-        backgroundSize: "contain",
-        backgroundPosition: "right",
-        backgroundRepeat: "no-repeat",
-        paddingTop: "40px",
-      }}
-    >
-      <div className="container mx-auto w-full md:mt-0 mt-14 flex flex-col md:flex-row gap-5 lg:gap-0 items-end lg:grid lg:grid-cols-12 z-10">
-        {/* Left Content */}
-        <div
-          className="   space-y-4
+          backgroundSize: "contain",
+          backgroundPosition: "top right",
+          backgroundRepeat: "no-repeat",
+          // paddingTop: "40px",
+        }}
+      >
+        <div className="container mx-auto w-full flex flex-col md:flex-row gap-5 lg:gap-0 items-end lg:grid lg:grid-cols-12 z-10">
+          {/* Left Content */}
+          <div
+            className="   space-y-4
   [&>*:first-child]:mt-0
   [&>*:last-child]:mb-0
   lg:col-span-6
@@ -40,25 +30,25 @@ export default function OperationBanner24() {
   2xl:ml-0
   ml-2
   relative "
-        >
-          {/* Glowing Tag */}
-          <div
-            style={{
-              background: "#010403A6",
-              backdropFilter: "blur(45px)",
-              boxShadow: "-9px 11px 48px 0px #BC72F873",
-            }}
-            className="inline-flex items-center  gap-0.5 lg:gap-2 px-4 py-2 rounded-full border-[1.5px] border-[#6C35BE]"
           >
-            <span className="text-gray-300 text-[10px] md:text-sm font-medium tracking-wide">
-              Built for 24/7 Operations 🕐
-            </span>
-            <Zap className="lg:w-3.5 lg:h-3.5 w-4 h-4 text-yellow-400 fill-yellow-400" />
-          </div>
+            {/* Glowing Tag */}
+            <div
+              style={{
+                background: "#010403A6",
+                backdropFilter: "blur(45px)",
+                boxShadow: "-9px 11px 48px 0px #BC72F873",
+              }}
+              className="inline-flex items-center  gap-0.5 lg:gap-2 px-4 py-2 rounded-full border-[1.5px] border-[#6C35BE]"
+            >
+              <span className="text-gray-300 text-[10px] md:text-sm font-medium tracking-wide">
+                Built for 24/7 Operations 🕐
+              </span>
+              <Zap className="lg:w-3.5 lg:h-3.5 w-4 h-4 text-yellow-400 fill-yellow-400" />
+            </div>
 
-          {/* Headline */}
-          <h1
-            className="
+            {/* Headline */}
+            <h1
+              className="
     text-[1.5rem]
     md:text-[1.75rem]
     lg:text-[2.25rem]
@@ -73,16 +63,16 @@ export default function OperationBanner24() {
     ml-2
     md:ml-0
   "
-          >
-            Designed for
-            <br />
-            continuous inbound
-            <br />
-            support, not office hours
-          </h1>
+            >
+              Designed for
+              <br />
+              continuous inbound
+              <br />
+              support, not office hours
+            </h1>
 
-          <p
-            className="
+            <p
+              className="
     text-white tracking-wide
     text-xs leading-6
     sm:text-sm sm:leading-7
@@ -92,26 +82,26 @@ export default function OperationBanner24() {
   wrap-break-word
     whitespace-normal
   "
-          >
-            Inbound customer support does not pause. Calls come in at night,
-            during weekends, and under peak pressure. SpiraLink voicebots are
-            built to operate continuously, without relying on human supervision
-            or fragile setups.
-          </p>
+            >
+              Inbound customer support does not pause. Calls come in at night,
+              during weekends, and under peak pressure. SpiraLink voicebots are
+              built to operate continuously, without relying on human
+              supervision or fragile setups.
+            </p>
 
-          <Image
-            src={"/assets/bg/operations/left-bg.png"}
-            alt="line"
-            width={700}
-            height={700}
-            className="absolute -left-[42%] lg:-left-[40%] lg:top-[15%] top-[10%] w-contain h-auto lg:scale-150 z-0"
-            draggable={false}
-          />
-        </div>
+            <Image
+              src={"/assets/bg/operations/left-bg.png"}
+              alt="line"
+              width={700}
+              height={700}
+              className="absolute -left-[40%] lg:-left-[40%] lg:top-[15%] top-[37%] w-contain h-auto scale-150 z-0"
+              draggable={false}
+            />
+          </div>
 
-        {/* Right Content */}
-        <div
-          className="
+          {/* Right Content */}
+          <div
+            className="
     flex flex-col
     md:justify-end
     pb-4
@@ -119,20 +109,19 @@ export default function OperationBanner24() {
     mr-3 md:mr-0
     md:mt-0
     md:-mb-42
-    -mb-6
   "
-        >
-          <Image
-            src="/assets/bg/operations/star.png"
-            alt="operations"
-            width={20}
-            height={20}
-            draggable={false}
-            className="w-5 h-auto"
-          />
+          >
+            <Image
+              src="/assets/bg/operations/star.png"
+              alt="operations"
+              width={20}
+              height={20}
+              draggable={false}
+              className="w-5 h-auto"
+            />
 
-          <p
-            className="
+            <p
+              className="
       text-purple-500 font-bold
       text-sm md:text-lg
       leading-relaxed
@@ -140,10 +129,11 @@ export default function OperationBanner24() {
       pl-4 md:pl-6
    wrap-break-word
     "
-          >
-            This page explains how the system behaves when things are stable,
-            when volume spikes, and when something goes wrong.
-          </p>
+            >
+              This page explains how the system behaves when things are stable,
+              when volume spikes, and when something goes wrong.
+            </p>
+          </div>
         </div>
       </div>
     </section>

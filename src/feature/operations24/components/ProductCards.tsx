@@ -46,7 +46,7 @@ const Section = ({
         </h4>
       )}
       {section.description && (
-        <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
+        <p className="text-white/65 text-[16px] lg:text-lg leading-relaxed max-w-md">
           {section.description}
         </p>
       )}
@@ -110,7 +110,7 @@ export default function ProductCards() {
 
                 {card.footer && (
                   <div className="mt-8 pt-8">
-                    <p className="section-subtitle italic text-[16px]!">
+                    <p className="section-subtitle text-[16px]!">
                       {card.footer}
                     </p>
                   </div>

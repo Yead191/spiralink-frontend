@@ -25,6 +25,9 @@
   .flex-center {
     @apply flex justify-center items-center;
   }
+  .page-title {
+    @apply text-4xl lg:text-[78px]  font-semibold 2xl:font-bold mb-6 leading-tight md:leading-[1.2] xl:leading-[1.1] tracking-tight md:tracking-[-3px] text-white;
+  }
 }
 
 body {

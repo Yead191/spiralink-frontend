@@ -12,7 +12,7 @@ export default function ExistingSystem() {
   return (
     <section
       style={{
-        backgroundImage: "url('/assets/bg/operations/existing-bg.svg')",
+        backgroundImage: "url('/assets/bg/operations/existing-bg.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

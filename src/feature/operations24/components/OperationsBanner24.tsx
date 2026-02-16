@@ -16,7 +16,7 @@ export default function OperationBanner24() {
           // paddingTop: "40px",
         }}
       >
-        <div className="container mx-auto w-full flex flex-col md:flex-row gap-5 lg:gap-0 items-end lg:grid lg:grid-cols-12 z-10">
+        <div className="container mx-auto w-full flex flex-col md:flex-row gap-5 lg:gap-0 items-end lg:grid lg:grid-cols-12 z-10 md:mb-20 lg:mb-0">
           {/* Left Content */}
           <div
             className="   space-y-4
@@ -108,7 +108,7 @@ export default function OperationBanner24() {
     lg:col-span-6 2xl:col-span-5
     mr-3 md:mr-0
     md:mt-0
-    md:-mb-42
+    lg:-mb-42
   "
           >
             <Image

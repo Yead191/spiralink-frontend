@@ -3,10 +3,10 @@ import Marquee from "react-fast-marquee";
 import Image from "next/image";
 
 const MARQUEE_IMAGES = [
-  "/assets/images/operations/opposite/img1.jpg",
+  "/assets/images/operations/opposite/img1.png",
   "/assets/images/operations/opposite/img2.png",
   "/assets/images/operations/opposite/img3.png",
-  "/assets/images/operations/opposite/img1.jpg",
+  "/assets/images/operations/opposite/img1.png",
 ];
 
 export default function OppositeWay() {

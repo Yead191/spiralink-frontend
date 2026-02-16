@@ -14,7 +14,7 @@ export default function RequestDemo() {
   return (
     <section
       style={{
-        backgroundImage: "url('/assets/bg/home/request-bg.svg')",
+        backgroundImage: "url('/assets/bg/home/request-bg.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 export default function OperationalFlow() {
@@ -40,7 +39,7 @@ export default function OperationalFlow() {
           </svg>
         </div>
         <div className="relative">
-          <div className="grid grid-cols-1 md:grid-cols-2 mt-12 gap-8 pl-12 md:pl-0 relative z-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 mt-12 gap-8  md:pl-0 relative z-10">
             <p className="text-white/75 text-[16px] lg:text-lg 2xl:text-xl leading-relaxed">
               AI and human agents work inside the same operational structure.
               Calls are routed, handled, and escalated using the same logic and
@@ -82,7 +81,7 @@ export default function OperationalFlow() {
       </div>
 
       <svg
-        className="absolute bottom-12 -left-28 z-0 object-contain pointer-events-none scale-150 md:hidden"
+        className="absolute bottom-12 -left-28 z-0 object-contain pointer-events-none scale-150 hidden"
         width="1616"
         height="699"
         viewBox="0 0 1616 699"

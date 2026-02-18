@@ -94,9 +94,34 @@ export default function OperationBanner24() {
               alt="line"
               width={700}
               height={700}
-              className="absolute -left-[40%] lg:-left-[40%] lg:top-[15%] top-[37%] w-contain h-auto scale-150 z-0"
+              className="absolute -left-[40%] lg:-left-[40%] lg:top-[15%] top-[37%] w-contain h-auto scale-150 z-0 2xl:hidden"
               draggable={false}
             />
+            <svg
+              className="absolute -left-[44%] lg:-left-[386%] 2xl:-left-[806%] h-[274px] lg:h-[300px]  lg:top-[190px] 2xl:top-[70px] z-0 hidden 2xl:block pointer-events-none 2xl:scale-150"
+              viewBox="-4163 0 5000 294"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M-4163 284H332.044C418.566 284 411.961 146.34 328.081 146.34H250.145C168.246 146.34 169.567 10 250.145 10H418.566C441.682 10 453.901 27.1663 453.901 50.9349V238.113C453.901 265.183 453.901 284 487.585 284H837"
+                stroke="url(#home_line_gradient_1)"
+                strokeWidth="16"
+              />
+              <defs>
+                <linearGradient
+                  id="home_line_gradient_1"
+                  x1="189.215"
+                  y1="147"
+                  x2="837"
+                  y2="147"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#C175FC" />
+                  <stop offset="1" stopColor="#6C35BE" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
           </div>
 
           {/* Right Content */}

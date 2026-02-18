@@ -28,34 +28,32 @@ export default function OperationsBanner() {
               instead of inside it. Teams are forced to adapt their workflows,
               tools, and processes around the technology.
             </p>
-
-            <div className="hidden xl:block absolute -left-[86.5%] 2xl:-left-[90%] top-1/4 -translate-y-1/4 xl:w-[75vw] 2xl:w-[50vw] opacity-80 pointer-events-none">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1831 605"
-                fill="none"
-                className="w-full h-auto xl:w-[1831px] lg:h-[540px] 2xl:h-[605px]"
-              >
-                <path
-                  d="M-1123 588.5L828.157 560C999.99 560 986.873 286.689 820.287 286.689H665.506C502.856 286.689 505.478 16 665.506 16H999.99C1045.9 16 1070.17 50.0819 1070.17 97.2723V468.896C1070.17 522.641 1070.17 560 1137.06 560H1831"
-                  stroke="url(#ops_paint0_linear_desktop_sl)"
-                  strokeWidth="28"
-                />
-                <defs>
-                  <linearGradient
-                    id="ops_paint0_linear_desktop_sl"
-                    x1="544.501"
-                    y1="288"
-                    x2="1831"
-                    y2="288"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stopColor="#C175FC" />
-                    <stop offset="1" stopColor="#6C35BE" stopOpacity="0" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
+            {/* Top Left SVG Line */}
+            <svg
+              className="absolute -left-[44%] lg:-left-[386%] 2xl:-left-[473%] h-[274px] lg:h-[300px]  lg:top-[190px] 2xl:top-[150px] z-0 hidden lg:block pointer-events-none 2xl:scale-150"
+              viewBox="-4163 0 5000 294"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M-4163 284H332.044C418.566 284 411.961 146.34 328.081 146.34H250.145C168.246 146.34 169.567 10 250.145 10H418.566C441.682 10 453.901 27.1663 453.901 50.9349V238.113C453.901 265.183 453.901 284 487.585 284H837"
+                stroke="url(#home_line_gradient_1)"
+                strokeWidth="20"
+              />
+              <defs>
+                <linearGradient
+                  id="home_line_gradient_1"
+                  x1="189.215"
+                  y1="147"
+                  x2="837"
+                  y2="147"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#C175FC" />
+                  <stop offset="1" stopColor="#6C35BE" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
 
             {/* <Image
               src="/assets/lines/operations/banner-line.svg"

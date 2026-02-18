@@ -1,3 +1,4 @@
+import GlowingTag from "@/shared/GlowingTag";
 import { MoveUpRight, Asterisk } from "lucide-react";
 import Image from "next/image";
 import React from "react";
@@ -10,18 +11,9 @@ export default function CollaborationBanner() {
         {/* left */}
         <div className="flex-1 text-center md:text-left">
           {/* Glowing Tag */}
-          <div
-            style={{
-              background: "#010403A6",
-              backdropFilter: "blur(45px)",
-              boxShadow: "-9px 11px 48px 0px #BC72F873",
-            }}
-            className="inline-flex items-center gap-0.5 lg:gap-2 px-4 py-2 rounded-full border-[1.5px] border-[#6C35BE]"
-          >
-            <span className="text-gray-300 text-[10px] md:text-sm font-medium tracking-wide">
-              AI + Human Collaboration 👋
-            </span>
-          </div>
+
+          <GlowingTag text="AI + Human Collaboration 👋" />
+
           <h1 className="section-title mt-6 text-4xl! lg:text-[60px]! leading-[1.1] max-w-[600px]">
             Built for the reality of inbound customer support.
           </h1>
@@ -57,9 +49,34 @@ export default function CollaborationBanner() {
               alt="line"
               width={600}
               height={600}
-              className="absolute  lg:-top-20  lg:-right-76  2xl:-right-110 w-contain h-auto lg:scale-150 z-0 hidden md:block"
+              className="absolute  lg:-top-20  lg:-right-76  2xl:-right-110 w-contain h-auto lg:scale-150 z-0 hidden md:block 2xl:hidden"
               draggable={false}
             />
+            <svg
+              className="absolute -right-[44%] lg:right-[80%] 2xl:-right-[735%] bottom-0 lg:bottom-0 2xl:-top-[60px] h-[274px] z-0  2xl:block pointer-events-none hidden transform scale-y-[-1]"
+              viewBox="0 0 5000 294"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 10H310.876C397.427 10 390.82 147.66 306.912 147.66H228.95C147.024 147.66 148.345 284 228.95 284H397.427C420.551 284 432.774 266.834 432.774 243.065V55.8868C432.774 28.8169 432.774 10 466.469 10H5000"
+                stroke="url(#techteam_line_gradient_2)"
+                strokeWidth="20"
+              />
+              <defs>
+                <linearGradient
+                  id="techteam_line_gradient_2"
+                  x1="-31"
+                  y1="147"
+                  x2="300"
+                  y2="147"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#6C35BE" stopOpacity="0" />
+                  <stop offset="1" stopColor="#C175FC" />
+                </linearGradient>
+              </defs>
+            </svg>
           </div>
         </div>
       </div>
@@ -71,11 +88,11 @@ export default function CollaborationBanner() {
           <div className="flex flex-col md:flex-row md:ap-3">
             <Asterisk className="w-8 h-8 text-purple-400 mb-4" />
             <h3 className="text-xl font-medium mb-3">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-400 to-purple-600">
                 Inbound customer support is
               </span>
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-400 to-purple-600">
                 unpredictable by nature.
               </span>
             </h3>
@@ -89,7 +106,7 @@ export default function CollaborationBanner() {
           SpiraLink is built <br />
           around this reality.
         </h2>
-        <div className="flex md:pl-60">
+        <div className="flex md:pl-60 relative z-10">
           <p className="text-gray-400 text-lg md:text-xl max-w-2xl leading-relaxed">
             Instead of forcing full automation or relying entirely on humans, we
             design one continuous support flow where AI and human agents each
@@ -102,9 +119,35 @@ export default function CollaborationBanner() {
           alt="line"
           width={600}
           height={600}
-          className="absolute -left-[44%] lg:-left-[28%] 2xl:-left-[30%] lg:top-10 lg:scale-120 w-contain h-auto z-0 hidden md:block"
+          className="absolute -left-[44%] lg:-left-[28%] 2xl:-left-[30%] lg:top-10 lg:scale-120 w-contain h-auto z-0 hidden md:block 2xl:hidden"
           draggable={false}
         />
+        {/* Top Left SVG Line */}
+        <svg
+          className="absolute -left-[44%] lg:-left-[453%] h-[274px] lg:h-[300px]  lg:top-[-150px] 2xl:top-[120px] z-0 hidden 2xl:block pointer-events-none scale-150"
+          viewBox="-4163 0 5000 294"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M-4163 284H332.044C418.566 284 411.961 146.34 328.081 146.34H250.145C168.246 146.34 169.567 10 250.145 10H418.566C441.682 10 453.901 27.1663 453.901 50.9349V238.113C453.901 265.183 453.901 284 487.585 284H837"
+            stroke="url(#home_line_gradient_1)"
+            strokeWidth="20"
+          />
+          <defs>
+            <linearGradient
+              id="home_line_gradient_1"
+              x1="189.215"
+              y1="147"
+              x2="837"
+              y2="147"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#C175FC" />
+              <stop offset="1" stopColor="#6C35BE" stopOpacity="0" />
+            </linearGradient>
+          </defs>
+        </svg>
       </div>
       {/* lines */}
       {/* <Image

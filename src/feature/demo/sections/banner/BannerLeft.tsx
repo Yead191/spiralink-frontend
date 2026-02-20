@@ -108,9 +108,35 @@ export default function BannerLeft() {
         alt="line"
         width={600}
         height={600}
-        className="absolute -left-[32%] md:-left-[27%] top-39 lg:-left-[32%] 2xl:-left-[45%] lg:top-[15%] w-contain h-auto scale-200 z-0"
+        className="absolute -left-[32%] md:-left-[27%] top-39 lg:-left-[32%] 2xl:-left-[45%] lg:top-[15%] w-contain h-auto scale-200 z-0 lg:hidden"
         draggable={false}
       />
+      {/* Top Left SVG Line */}
+      <svg
+        className="absolute -left-[44%] xl:-left-[994%] lg:-left-[1177%] 2xl:-left-[1013%] h-[274px] lg:h-[600px]  lg:top-[440px] z-0 hidden lg:block pointer-events-none lg:scale-200"
+        viewBox="-4163 0 5000 694"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M-4163 284H332.044C418.566 284 411.961 146.34 328.081 146.34H250.145C168.246 146.34 169.567 10 250.145 10H418.566C441.682 10 453.901 27.1663 453.901 50.9349V238.113C453.901 265.183 453.901 284 487.585 284H837"
+          stroke="url(#home_line_gradient_1)"
+          strokeWidth="12"
+        />
+        <defs>
+          <linearGradient
+            id="home_line_gradient_1"
+            x1="189.215"
+            y1="147"
+            x2="837"
+            y2="147"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stopColor="#C175FC" />
+            <stop offset="1" stopColor="#6C35BE" stopOpacity="0" />
+          </linearGradient>
+        </defs>
+      </svg>
     </div>
   );
 }

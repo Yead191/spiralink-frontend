@@ -470,9 +470,34 @@ export default function BannerRight() {
           alt="line"
           width={600}
           height={600}
-          className="absolute -right-[60%] lg:-right-[75%] top-[47px] w-contain h-auto z-0"
+          className="absolute -right-[60%] lg:-right-[75%] top-[47px] w-contain h-auto z-0 lg:hidden"
           draggable={false}
         />
+        <svg
+          className="absolute -right-[880%] xl:-right-[750%] 2xl:-right-[785%] bottom-0 lg:-bottom-[185px] 2xl:-bottom-[188px] h-[274px] z-0  lg:block pointer-events-none hidden "
+          viewBox="0 0 5000 294"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 10H310.876C397.427 10 390.82 147.66 306.912 147.66H228.95C147.024 147.66 148.345 284 228.95 284H397.427C420.551 284 432.774 266.834 432.774 243.065V55.8868C432.774 28.8169 432.774 10 466.469 10H5000"
+            stroke="url(#techteam_line_gradient_2)"
+            strokeWidth="20"
+          />
+          <defs>
+            <linearGradient
+              id="techteam_line_gradient_2"
+              x1="-31"
+              y1="147"
+              x2="300"
+              y2="147"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#6C35BE" stopOpacity="0" />
+              <stop offset="1" stopColor="#C175FC" />
+            </linearGradient>
+          </defs>
+        </svg>
       </div>
     </section>
   );

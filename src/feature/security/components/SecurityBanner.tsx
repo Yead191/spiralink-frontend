@@ -1,5 +1,4 @@
 import BadgeHero from "@/shared/BadgeHero";
-import { ShieldHalf, Zap } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -7,7 +6,7 @@ const SecurityBanner = () => {
   return (
     <div
       style={{
-        backgroundImage: "url('/assets/bg/security/11111.svg')",
+        backgroundImage: "url('/assets/bg/security/security-banner-bg.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         // backgroundRepeat: "no-repeat",

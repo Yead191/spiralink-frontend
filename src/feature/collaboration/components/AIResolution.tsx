@@ -113,7 +113,7 @@ export default function AIResolution() {
 
                 <div className="ml-auto md:w-48 lg:w-64 md:h-32 lg:h-40 rounded-3xl overflow-hidden border border-white/10 relative">
                   <Image
-                    src="/assets/images/collaboration/person1.jpg"
+                    src="/assets/images/collaboration/person1.png"
                     alt="Customer"
                     width={300}
                     height={200}
@@ -173,7 +173,7 @@ export default function AIResolution() {
           <div className="relative flex justify-end">
             <div className="mr-auto w-[220px] h-[150px] md:h-32 lg:h-40 rounded-3xl overflow-hidden border border-white/10 relative flex justify-end">
               <Image
-                src="/assets/images/collaboration/person1.jpg"
+                src="/assets/images/collaboration/person1.png"
                 alt="Customer"
                 width={300}
                 height={200}

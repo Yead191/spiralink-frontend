@@ -14,7 +14,7 @@ export default function HomePage() {
   return (
     <section
       style={{
-        backgroundImage: "url('/assets/bg/home/home_bg.svg')",
+        backgroundImage: "url('/assets/bg/home/home_bg.png')",
         backgroundSize: "cover",
         // backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

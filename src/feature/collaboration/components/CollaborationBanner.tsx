@@ -82,7 +82,7 @@ export default function CollaborationBanner() {
       </div>
 
       {/* SpiraLink Reality Section */}
-      <div className="container mx-auto relative z-10  lg:-mt-72">
+      <div className="container mx-auto relative z-10 lg:-mt-44 xl:-mt-72">
         {/* Inbound Info Block */}
         <div className="max-w-md mb-8 lg:mb-16">
           <div className="flex flex-col md:flex-row md:ap-3">
@@ -119,7 +119,7 @@ export default function CollaborationBanner() {
           alt="line"
           width={600}
           height={600}
-          className="absolute -left-[44%] lg:-left-[28%] 2xl:-left-[30%] lg:top-10 lg:scale-120 w-contain h-auto z-0 hidden md:block 2xl:hidden"
+          className="absolute -left-[44%] lg:-left-[32%] xl:-left-[28%] 2xl:-left-[30%] lg:top-10 lg:scale-120 w-contain h-auto z-0 hidden md:block 2xl:hidden"
           draggable={false}
         />
         {/* Top Left SVG Line */}

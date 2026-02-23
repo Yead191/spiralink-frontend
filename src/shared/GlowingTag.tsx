@@ -10,7 +10,7 @@ export default function GlowingTag({ text }: { text: string }) {
       }}
       className="inline-flex items-center gap-0.5 lg:gap-2 px-4 lg:px-8 py-2 md:py-3 rounded-full border-[1.5px] border-[#6C35BE] "
     >
-      <span className="text-gray-300 text-[10px] md:text-[18px] font-medium tracking-wide">
+      <span className="text-gray-300 text-[10px] md:text-[18px] font-medium tracking-wide text-nowrap">
         {text}
       </span>
     </div>

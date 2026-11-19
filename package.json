@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node init && next dev --turbopack",
-    "build": "node init && next build",
-    "start": "node init && next start",
-    "lint": "next lint"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
   },
   "dependencies": {
     "@ant-design/nextjs-registry": "^1.2.0",
